@@ -1,0 +1,18 @@
+.outerbullet {
+  color: blue;
+  list-style-type: square;
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: Gold;
+}
+
+ul.square {
+  list-style-type: disc;
+}
+
+ul.square li:first-child {
+  color: red;
+}

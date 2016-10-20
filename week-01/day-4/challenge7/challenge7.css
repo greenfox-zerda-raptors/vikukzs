@@ -1,0 +1,14 @@
+p {
+  width: 300px;
+  font-size: 18px;
+  border: solid black;
+  border-top: 0px;
+  padding: 20px;
+  margin: auto 0px;
+}
+.bottomless {
+  border-bottom: 0px;
+}
+p:hover {
+  background-color: yellow;
+}

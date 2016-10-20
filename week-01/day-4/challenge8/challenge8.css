@@ -1,0 +1,18 @@
+
+body {
+    margin: 20px;
+}
+p {
+  width: 200px;
+  font-size: 18px;
+  border: solid black;
+  padding: 50px;
+  background: url(
+   https://raw.githubusercontent.com/greenfox-academy/teaching-materials/master/tools-and-coding/html-css/duck.png) no-repeat left center;
+  }
+  .p2 {
+    background-position: center;
+  }
+  .p3 {
+    background-position: right bottom;
+  }

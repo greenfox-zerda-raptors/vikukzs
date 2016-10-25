@@ -1,0 +1,64 @@
+.wrapper {
+  width: 40%;
+  position: relative;
+}
+ .firstpar {
+   float: left;
+ }
+
+ .secondpar {
+   float: right;
+ }
+
+img {
+  padding: 20px;
+}
+
+p {
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+  padding: 20px 0px;
+  text-align: justify;
+}
+
+#alertbox {
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  z-index: +1;
+  position: absolute;
+  bottom: 150px;
+  left: 150px;
+  background-color: white;
+}
+
+#alertbox p {
+  padding: 20px;
+  margin: 0px;
+}
+
+#alertbox div {
+  background-color: grey;
+  border-radius: 10px;
+  float: right;
+  margin: 10px 10px 10px 0px;
+  padding: 5px;
+}
+
+.red {
+  color: red;
+}
+
+#alertbox div.x {
+  background-color: black;
+  color: white;
+  padding: 0px 5px;
+  margin-top: -13px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.2;
+}

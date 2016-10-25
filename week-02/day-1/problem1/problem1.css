@@ -1,0 +1,23 @@
+.wrapper {
+  width: 30%;
+}
+ .firstpar {
+   float: left;
+ }
+
+ .secondpar {
+   float: right;
+ }
+
+img {
+  padding: 20px;
+}
+
+p {
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+  padding: 20px 0px;
+  text-align: justify;
+}

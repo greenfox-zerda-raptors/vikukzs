@@ -1,0 +1,53 @@
+.wrapper {
+
+  width: 800px;
+  margin: auto;
+
+}
+main {
+  width: 500px;
+  height: 800px;
+  background-color: red;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0px 50px;
+}
+
+
+header {
+  width: 800px;
+  height: 100px;
+  background-color: cyan;
+  float: left;
+}
+.sidebarleft {
+  height: 800px;
+  width: 100px;
+  background-color: orange;
+  float: left;
+}
+
+.black {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 10px;
+}
+
+.sidebarright {
+  height: 800px;
+  width: 100px;
+  background-color: purple;
+  float: right;
+}
+
+footer {
+  width: 800px;
+  height: 100px;
+  background-color: blue;
+  clear: both;
+}

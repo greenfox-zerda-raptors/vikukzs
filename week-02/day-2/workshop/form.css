@@ -1,0 +1,125 @@
+
+.container {
+  width: 820px;
+  height: 1000px;
+  background-color: RGBA(221, 214, 204, 1.00);
+  margin: auto;
+
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: RGBA(77, 62, 98, 1.00);
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+.szemAdatok, .kapcsolat {
+  width: 300px;
+  float: left;
+}
+
+
+.kapcsolat {
+  margin-left: 20px;
+
+}
+
+.columns {
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+.content {
+  clear: both;
+  width: 100%;
+}
+
+h1 {
+  padding-top: 50px;
+  font-weight: lighter;
+}
+h2 {
+  color: white;
+  font-weight: lighter;
+  background-color: RGBA(149, 138, 151, 1.00);
+  padding: 10px;
+  margin: 0px 0px 15px 0px;
+  border: 1px solid RGBA(149, 138, 151, 1.00);
+  border-radius: 3px;
+  line-height: 90%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+select, textarea, input[type=text], [type=number], [type=tel], [type=email], [type=url] {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid RGBA(149, 138, 151, 1.00);
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+textarea {
+  height: 200px;
+}
+
+p {
+  color: #9a9a9a;
+}
+
+.fajl {
+  width: 250px;
+  height: 40px;
+  color: RGBA(77, 62, 98, 1.00);
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid RGBA(149, 138, 151, 1.00);
+  background-color: white;
+
+
+}
+
+.feltetel {
+  line-height: 500%;
+}
+
+.ment {
+  width: 250px;
+  height: 50px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: RGBA(73, 58, 92, 1.00);
+  border: 1px solid RGBA(73, 58, 92, 1.00);
+  border-radius: 3px;
+}
+
+.torles {
+  width: 180px;
+  height: 50px;
+  color: RGBA(77, 62, 98, 1.00);
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: 3px;
+  border: 1px solid RGBA(149, 138, 151, 1.00);
+  background-color: white;
+  float: right;
+}
+
+.cv {
+  line-height: 200%;
+}
+
+.red {
+  color: #f30101;
+  font-size: 14px;
+  font-weight: normal;
+}

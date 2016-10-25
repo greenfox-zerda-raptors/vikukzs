@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+  <div class="container">
+    <form action="" method="post">
+      <h1>Profil</h1>
+      <div class="szemAdatok">
+        <h2>Személyes adatok</h2>
+        <label for="name" class="label">Név<span class="red"> *</span></label><br>
+        <input type="text" id="name" name="user_name"/>
+        <br>
+        <div class="columns">
+          <label for="birth" class="label">Szuletesi eved</label><br>
+          <input type="number" placeholder="pl. 1985" min="1900" max="2016"/><br>
+          <span for="gender" class="label">Nemed</span><br>
+          <label><input type="radio" name="gender" value="male">Ferfi</label>
+          <label><input type="radio" name="gender" value="female"> No</label><br>
+        </div>
+
+        <label for="marka" class="label">Milyen markakat szeretsz?</label><br>
+        <div class="columns">
+          <label><input type="checkbox" name="marka1" value="Adidas">Adidas</label>
+          <br>
+          <label><input type="checkbox" name="marka2" value="Apple">Apple</label>
+          <br>
+          <label><input type="checkbox" name="marka3" value="Coca-Cola">Coca-Cola</label>
+          <br>
+          <label><input type="checkbox" name="marka4" value="Mazda">Mazda</label>
+          <br>
+          <label><input type="checkbox" name="marka5" value="Nike">Nike</label>
+          <br>
+          <label><input type="checkbox" name="marka6" value="Opel">Opel</label>
+          <br>
+          <label><input type="checkbox" name="marka7" value="Ray-Ban">Ray-Ban</label>
+          <br>
+          <label><input type="checkbox" name="marka8" value="Starbucks">Starbucks</label>
+          <br>
+          <label><input type="checkbox" name="marka9" value="Tesla">Tesla</label>
+          <br>
+          <label><input type="checkbox" name="marka10" value="Yahoo">Yahoo</label>
+          <br>
+        </div>
+        <p>Tobbet is valaszthatsz!</p>
+
+      </div>
+      <div class="kapcsolat">
+        <h2>Kapcsolat</h2>
+        <label for="telszam" class="label">Telefonszam<span class="red"> *</span></label><br>
+        <input type="tel" placeholder="+36 -- --- ----"/>
+        <br>
+        <label for="email" class="label">E-mail cim<span class="red"> *</span></label><br>
+        <input type="email" placeholder="nev@domain.hu"/>
+        <br>
+
+        <label for="facebook" class="label">Facebook profilod</label><br>
+        <input type="url" placeholder="http://facebook.com/..."/>
+        <br>
+
+        <label for="twitter" class="label">Twitter profilod</label><br>
+        <input type="url" placeholder="http://twitter.com/..."/>
+        <br>
+
+        <label for="haz" class="label">Milyen hazban laksz?</label><br>
+        <select name="hazak">
+          <option value="" disabled selected>Valassz tipust!</option>
+          <option value="csaladi">Csaladi</option>
+          <option value="panel">Panel</option>
+          <option value="tegla">Tegla</option>
+          <option value="csusztatott">Csusztatott zsalu</option>
+        </select>
+
+      </div>
+      <div class="content">
+        <label for="bemutatkozas" class="label">Bemutatkozas<span class="red"> *</span></label><br>
+        <textarea placeholder="Irj magadrol par mondatot!"></textarea>
+        <br>
+
+        <label for="button" class="label cv">CV feltoltese</label><br>
+        <button type="submit" class="fajl">FILE KIVALASZTASA</button>
+        <br>
+        <label class="feltetel"><input type="checkbox">Elfogadom a felhasznalasi felteteleket<br></label>
+        <button type="submit" class="ment">MENTES</button>
+        <button type="reset" class="torles">URLAP TORLESE</button>
+
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

@@ -41,7 +41,7 @@ h2 {
   font-weight: lighter;
   background-color: RGBA(149, 138, 151, 1.00);
   padding: 10px;
-  margin: 0px 0px 15px 0px;
+  margin-bottom: 15px;
   border: 1px solid RGBA(149, 138, 151, 1.00);
   border-radius: 3px;
   line-height: 90%;

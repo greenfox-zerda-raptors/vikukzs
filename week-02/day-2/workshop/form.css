@@ -80,9 +80,19 @@ p {
   font-weight: bold;
   border-radius: 3px;
   border: 1px solid RGBA(149, 138, 151, 1.00);
-  background-color: white;
+}
 
+.fajl, .torles {
+  background: white;
+  background: linear-gradient(white, #b9b1b1);
+  -moz-background: linear-gradient(white, #b9b1b1);
+  -webkit-background: linear-gradient(white, #b9b1b1);
+}
 
+.fajl:hover, .torles:hover {
+  background: linear-gradient(#b9b1b1, white);
+  -moz-background: linear-gradient(#b9b1b1, white);
+  -webkit-background: linear-gradient(#b9b1b1, white);
 }
 
 .feltetel {
@@ -96,9 +106,22 @@ p {
   font-size: 18px;
   font-weight: bold;
   color: white;
-  background-color: RGBA(73, 58, 92, 1.00);
-  border: 1px solid RGBA(73, 58, 92, 1.00);
+  background: #493a5c;
+  border: 1px solid #493a5c;
   border-radius: 3px;
+  background: linear-gradient(#493a5c, #322b3c);
+  -moz-background: linear-gradient(#493a5c, #322b3c);
+  -webkit-background: linear-gradient(#493a5c, #322b3c);
+  -moz-background: linear-gradient(#493a5c, #322b3c);
+  -webkit-background: linear-gradient(#493a5c, #322b3c);
+}
+
+.ment:hover {
+  background: linear-gradient(#322b3c, #493a5c);
+  -moz-background: linear-gradient(#322b3c, #493a5c);
+  -webkit-background: linear-gradient(#322b3c, #493a5c);
+  -moz-background: linear-gradient(#322b3c, #493a5c);
+  -webkit-background: linear-gradient(#322b3c, #493a5c);
 }
 
 .torles {

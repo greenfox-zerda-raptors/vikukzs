@@ -1,0 +1,57 @@
+button[type=submit] {
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  margin: 10px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.feher {
+  background: white;
+  background: linear-gradient(white, #ded7d7);
+  -moz-background: linear-gradient(white, #ded7d7);
+  -webkit-background: linear-gradient(white, #ded7d7);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  color: #616161;
+}
+
+.feher:hover {
+  background: linear-gradient(#ded7d7, white);
+  -moz-background: linear-gradient(#ded7d7, white);
+  -webkit-background: linear-gradient(#ded7d7, white);
+}
+
+.kek, .zold {
+  color: white;
+  text-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.kek {
+  background: #01B3E3;
+  background: linear-gradient(#01B3E3, #008EB3);
+  -moz-background: linear-gradient(#01B3E3, #008EB3);
+  -webkit-background: linear-gradient(#01B3E3, #008EB3);
+  border: 2px solid  #007998;
+}
+
+.kek:hover {
+  background: linear-gradient(#008EB3, #01B3E3);
+  -moz-background: linear-gradient(#008EB3, #01B3E3);
+  -webkit-background: linear-gradient(#008EB3, #01B3E3);
+}
+
+.zold {
+  background: #8ECE00;
+  background: linear-gradient(#8ECE00, #6C9E00);
+  -moz-background: linear-gradient(#8ECE00, #6C9E00);
+  -webkit-background: linear-gradient(#8ECE00, #6C9E00);
+  border: 2px solid  #5A8200;
+}
+
+.zold:hover {
+  background: linear-gradient(#6C9E00, #8ECE00);
+  -moz-background: linear-gradient(#6C9E00, #8ECE00);
+  -webkit-background: linear-gradient(#6C9E00, #8ECE00);
+}

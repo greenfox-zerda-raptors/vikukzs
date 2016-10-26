@@ -1,52 +1,85 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
 .wrapper {
 
   width: 100%;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-
 }
+/*sidebarleft*/
 
 .sidebarleft {
-  height: auto;
+  height: 100%;
   width: 200px;
   background-color: 	#f2eff5;
+  float: left;
+  clear: both;
+  margin: 0;
+  border-right: 1px solid #84CFFF;
+  padding: 10px 20px 10px 10px;
+  box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+  padding: 20px;
+
+  border-bottom: 1px solid grey;
+}
+
+img {
+  height: auto;
+  width: 160px;
+  padding: 15px;
+}
+
+/*kozepso resz*/
+
 main {
-  height: 800px;
-  background-color: red;
+  width: 80%;
+  height: auto;
   position: relative;
   box-sizing: border-box;
   margin: 0px 50px;
-  flex-grow: 1;
 }
 
-header {
-  width: 80%;
-  background-color: #f2eff5;
-
+.tablazat {
+  width: 250px;
+  border: 1px solid grey;
+  float: right;
+  clear: right;
 }
 
-
-.black {
-  width: 40px;
-  height: 40px;
-  background-color: black;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  margin: 10px;
+table {
+  margin: auto 10px;
 }
 
-.sidebarright {
-  height: 800px;
-  width: 100px;
-  background-color: purple;
+tr :first-child {
+  font-weight: bold;
+  padding-right: 5px;
 }
 
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: blue;
+.margaret {
+  width: 220px;
+  length: auto;
+  padding: 0px 15px;
+}
+
+.tabla {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.hamilton {
+  margin-top: 0;
+}
+
+.tablazat p {
+  text-align: center;
+  padding: 0;
 }

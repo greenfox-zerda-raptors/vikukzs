@@ -20,6 +20,7 @@
 .border {
   border: 3px solid #FF6347;
   transition: 1s;
+  box-sizing: border-box;
 }
 
 .button {
@@ -45,5 +46,5 @@
 }
 
 .container:hover .border {
-  transform: rotateZ(360deg);
+  transform: rotateZ(45deg);
 }

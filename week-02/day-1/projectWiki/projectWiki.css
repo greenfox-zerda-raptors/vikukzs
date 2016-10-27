@@ -11,26 +11,33 @@ html, body {
   height: auto;
   margin: auto;
 }
-/*sidebarleft*/
+/* //SIDEBAR// */
 
 .sidebarleft {
   height: 100%;
   width: 180px;
-  background-color: #f2eff5;
-  background: linear-gradient(white, #f2eff5 10%);
-  -moz-background: linear-gradient(white, #f2eff5 10%);
-  -webkit-background: linear-gradient(white, #f2eff5 10%);
+  background-color: #ececec;
+  background: linear-gradient(white, #ececec 10%);
+  -moz-background: linear-gradient(white, #ececec 10%);
+  -webkit-background: linear-gradient(white, #ececec 10%);
   float: left;
   clear: left;
   margin: 0;
-  padding: 10px 20px 10px 10px;
+  padding: 0px 10px;
   box-sizing: border-box;
   font-size: 12px;
+  line-height: 1.5;
 }
 
 .sidebarleft ul {
   list-style-type: none;
-  padding: 20px;
+  padding: 0px 10px 0px 20px;
+  margin: 0 auto;
+  color: blue;
+}
+
+.sidebarleft hr {
+  margin: 10px auto;
 }
 
 img {
@@ -38,18 +45,18 @@ img {
   width: 140px;
   padding: 15px;
 }
-/*header*/
+
+/* // HEADER //*/
 
 header {
   height: 20px;
 }
 
-/*kozepso resz*/
+/* // MAIN PART //*/
 
 main {
   width: auto;
   height: auto;
-  /*position: relative;*/
   box-sizing: border-box;
   margin: 0px;
   padding: 0px 20px;
@@ -57,7 +64,6 @@ main {
   line-height: 1.5;
   margin-left: 180px;
   border-left: 1px solid #84CFFF;
-  /*border-top: 1px solid #84CFFF;*/
 }
 
 h1, h2 {
@@ -85,11 +91,11 @@ h4 {
 
 .tablazat {
   width: 250px;
-  border: 1px solid grey;
+  border: 1px solid #b3afaf;
   float: right;
   clear: right;
   margin: 0 20px 20px;
-  background-color: #f2eff5;
+  background-color: #ececec;
 }
 
 table {
@@ -133,11 +139,11 @@ tr :first-child {
 }
 
 .content {
-  border: 1px solid grey;
+  border: 1px solid #b3afaf;
   margin: 0 20px;
   width: 110px;
   padding-left: 5px;
-  background-color: #f2eff5;
+  background-color: #ececec;
 }
 
 .quote {
@@ -149,11 +155,11 @@ tr :first-child {
 }
 
 .kepes {
-  border: 1px solid grey;
+  border: 1px solid #b3afaf;
   float: right;
   clear: right;
   margin: 0 20px 20px;
-  background-color: #f2eff5;
+  background-color: #ececec;
   width: 222px;
   height: auto;
   padding: 3px;
@@ -161,7 +167,7 @@ tr :first-child {
   font-size: 12px;
 }
 .kepes img {
-  border: 1px solid grey;
+  border: 1px solid #b3afaf;
   width: 220px;
   height: auto;
   padding: 0px;

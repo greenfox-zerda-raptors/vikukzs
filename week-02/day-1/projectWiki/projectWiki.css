@@ -1,50 +1,86 @@
 html, body {
   height: 100%;
+  width: auto;
+
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  font-size: 12px;
+  /*font-size: 14px;*/
 }
 .wrapper {
-
-  width: 100%;
+  height: auto;
   margin: auto;
 }
 /*sidebarleft*/
 
 .sidebarleft {
   height: 100%;
-  width: 200px;
-  background-color: 	#f2eff5;
+  width: 180px;
+  background-color: #f2eff5;
+  background: linear-gradient(white, #f2eff5 10%);
+  -moz-background: linear-gradient(white, #f2eff5 10%);
+  -webkit-background: linear-gradient(white, #f2eff5 10%);
   float: left;
-  clear: both;
+  clear: left;
   margin: 0;
-  border-right: 1px solid #84CFFF;
   padding: 10px 20px 10px 10px;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
-ul {
+.sidebarleft ul {
   list-style-type: none;
   padding: 20px;
-
-  border-bottom: 1px solid grey;
 }
 
 img {
   height: auto;
-  width: 160px;
+  width: 140px;
   padding: 15px;
+}
+/*header*/
+
+header {
+  height: 20px;
 }
 
 /*kozepso resz*/
 
 main {
-  width: 80%;
+  width: auto;
   height: auto;
-  position: relative;
+  /*position: relative;*/
   box-sizing: border-box;
-  margin: 0px 50px;
+  margin: 0px;
+  padding: 0px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 180px;
+  border-left: 1px solid #84CFFF;
+  /*border-top: 1px solid #84CFFF;*/
+}
+
+h1, h2 {
+  font-family: serif;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+hr {
+  margin: 0 auto;
+}
+
+h4 {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.others {
+  font-style: italic;
 }
 
 .tablazat {
@@ -52,6 +88,8 @@ main {
   border: 1px solid grey;
   float: right;
   clear: right;
+  margin: 0 20px 20px;
+  background-color: #f2eff5;
 }
 
 table {
@@ -82,4 +120,49 @@ tr :first-child {
 .tablazat p {
   text-align: center;
   padding: 0;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.content ul ul {
+  padding-left: 20px;
+}
+
+.content {
+  border: 1px solid grey;
+  margin: 0 20px;
+  width: 110px;
+  padding-left: 5px;
+  background-color: #f2eff5;
+}
+
+.quote {
+  padding: 20px 50px;
+}
+.cite {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.kepes {
+  border: 1px solid grey;
+  float: right;
+  clear: right;
+  margin: 0 20px 20px;
+  background-color: #f2eff5;
+  width: 222px;
+  height: auto;
+  padding: 3px;
+  line-height: normal;
+  font-size: 12px;
+}
+.kepes img {
+  border: 1px solid grey;
+  width: 220px;
+  height: auto;
+  padding: 0px;
 }

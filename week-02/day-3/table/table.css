@@ -68,10 +68,10 @@ thead {
   border-bottom: 4px solid #9EA7AF;
 }
 
-.darker {
+tbody tr:nth-child(odd) {
   background-color: #EBEBEB;
 }
 
-.lighter {
+tbody tr:nth-child(even) {
   background-color: #FFFFFF;
 }

@@ -1,92 +1,44 @@
-html, body {
-  height: 100%;
-  width: auto;
-
-  background-color: #f1f0f0;
-  background: linear-gradient(white, #f1f0f0 15%);
-  -moz-background: linear-gradient(white, #f1f0f0 15%);
-  -webkit-background: linear-gradient(white, #f1f0f0 15%);
-
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
 .wrapper {
-  height: auto;
+  width: 100%;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
 }
-/* //SIDEBAR// */
+
+/* SIDEBAR */
 
 .sidebarleft {
-  height: 100%;
+  height: auto;
   width: 180px;
-  /*background-color: #ececec;
-  background: linear-gradient(white, #ececec 10%);
-  -moz-background: linear-gradient(white, #ececec 10%);
-  -webkit-background: linear-gradient(white, #ececec 10%);*/
-  float: left;
-  clear: left;
-  margin: 0;
-  padding: 0px 10px;
-  box-sizing: border-box;
-  font-size: 12px;
-  line-height: 1.5;
+  background-color: orange;
 }
 
-.sidebarleft ul {
-  list-style-type: none;
-  padding: 0px 10px 0px 20px;
-  margin: 0 auto;
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: cyan;
+  display: flex;
 }
 
-.blue {
-  color: blue;
-}
-.sidebarleft hr {
-  margin: 10px auto;
-}
-
-img {
+header img {
   height: auto;
   width: 140px;
   padding: 15px;
 }
 
-/* // HEADER //*/
 
-header {
-  height: 100px;
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
-}
-
-.alsosor {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-input[type=search] {
-  width: 200px;
-  
-}
-
-
-/* // MAIN PART //*/
+/* MAIN */
 
 main {
-  width: auto;
-  height: auto;
+  min-width: 200px;
+  background-color: red;
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px 20px;
-  font-size: 14px;
-  line-height: 1.5;
-  margin-left: 180px;
-  border-left: 1px solid #84CFFF;
-  border-top: 1px solid #84CFFF;
-  background-color: white;
+  margin: 0px 50px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 h1, h2 {
@@ -97,7 +49,6 @@ h1, h2 {
 
 h1 {
   font-size: 34px;
-  margin-top: 0;
 }
 
 hr {
@@ -195,4 +146,11 @@ tr :first-child {
   width: 220px;
   height: auto;
   padding: 0px;
+}
+
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
 }

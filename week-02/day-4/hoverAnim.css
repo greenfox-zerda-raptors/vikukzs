@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.border, .button, .text {
+.border, .button, .text, .hvr {
   width: 100px;
   height: 100px;
   border-radius: 5px;
@@ -15,6 +15,7 @@
   position: absolute;
   top: 40%;
   left: 40%;
+  box-sizing: border-box;
 }
 
 .border {
@@ -39,12 +40,13 @@
   line-height: 0%;
   transition: 1s;
   top: 50%;
+  padding-top: 40px;
 }
 
-.container:hover .text {
+.hvr:hover .text {
   color: #FF6347;
 }
 
-.container:hover .border {
+.hvr:hover .border {
   transform: rotateZ(45deg);
 }

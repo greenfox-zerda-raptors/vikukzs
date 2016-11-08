@@ -8,23 +8,10 @@ public class Workshop10 {
         // in colors[1] store the shades of red: "orange red", "red", "tomato"
         // in colors[2] store the shades of pink: "orchid", "violet", "pink", "hot pink"
         String[][] colors = new String[3][];
-        colors[0] = new String[5];
-        colors[0][0] = "lime";
-        colors[0][1] = "forest green";
-        colors[0][2] = "olive";
-        colors[0][3] = "pale green";
-        colors[0][4] = "spring green";
+        colors[0] = new String[] {"lime", "forest green", "olive", "pale green", "spring green"};
+        colors[1] = new String[] {"orange red", "red", "tomato"};
+        colors[2] = new String[] {"orchid", "violet", "pink", "hot pink"};
 
-        colors[1] = new String[3];
-        colors[1][0] = "orange red";
-        colors[1][1] = "red";
-        colors[1][2] = "tomato";
-
-        colors[2] = new String[4];
-        colors[2][0] = "orchid";
-        colors[2][1] = "violet";
-        colors[2][2] = "pink";
-        colors[2][3] = "hot pink";
 
         for (String[] array : colors){
             for (String element : array){

@@ -27,4 +27,11 @@ public class Workshop08 {
         }
 
     }
+    public static int[][] create2dimArray(int length){
+        int[][] result = new int[length][length];
+        for (int i = 0; i < length; i ++){
+            result[i][i] = 1;
+        }
+        return result;
+    }
 }

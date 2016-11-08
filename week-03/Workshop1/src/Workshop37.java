@@ -14,8 +14,10 @@ public class Workshop37 {
         // The # character should be replacable, hence store it in a variable
 
         String hash = "# ";
-        for (int n = 1; n <= 7; n++) {
-            for (int m = 1; m <= 7; m++) {
+        int n;
+        int m;
+        for (n = 1; n <= 7; n++) {
+            for (m = 1; m <= 7; m++) {
                 System.out.print(hash);
             }
             if (n % 2 == 0) {

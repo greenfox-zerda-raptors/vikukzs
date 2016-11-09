@@ -31,7 +31,6 @@ public class Workshop03{
             System.out.print("INPUT or 0 to end?");
             num = checkValidNum();
         }
-
     } //main
     public static String checkValidNum(){
         try {

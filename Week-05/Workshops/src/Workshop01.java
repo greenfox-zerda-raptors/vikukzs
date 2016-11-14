@@ -26,8 +26,6 @@ public class Workshop01 {
         System.out.printf(myCar2.toString());
         System.out.printf(myCar3.toString());
 
-        myCar1.drive(15);
-        myCar2.drive(40);
 
     }
 }

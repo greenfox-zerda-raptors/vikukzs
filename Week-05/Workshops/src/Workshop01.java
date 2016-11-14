@@ -26,6 +26,15 @@ public class Workshop01 {
         System.out.printf(myCar2.toString());
         System.out.printf(myCar3.toString());
 
+        Car myCar05 = new Car("Opel", "white", 1400, 25);
+        Car myCar06 = new Car("VW", "grey");
+        Car myCar07 = new Car(1100, 15);
+
+        System.out.printf(myCar05.toString());
+        System.out.printf(myCar06.toString());
+        System.out.printf(myCar07.toString());
+
+
 
     }
 }

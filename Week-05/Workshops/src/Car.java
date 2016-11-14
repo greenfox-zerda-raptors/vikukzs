@@ -13,6 +13,28 @@ public class Car {
         sizeEngine = 1600;
         color = "red";
     }
+
+    public Car(String typeCar, String color){
+        this.typeCar = typeCar;
+        this.color = color;
+        this.sizeEngine = 1600;
+        this.kmOdometer = 10;
+    }
+
+    public Car(int sizeEngine, int kmOdometer){
+        this.typeCar = "Mazda";
+        this.color = "red";
+        this.sizeEngine = sizeEngine;
+        this.kmOdometer = kmOdometer;
+    }
+
+    public Car(String typeCar, String color, int sizeEngine, int kmOdometer){
+        this.typeCar = typeCar;
+        this.color = color;
+        this.sizeEngine = sizeEngine;
+        this.kmOdometer = kmOdometer;
+    }
+
     public String getColor() {
         return color;
     }
@@ -68,7 +90,6 @@ public class Car {
                     typeCar,
                     km);
         }
-        //public static something something
 
     }
 }

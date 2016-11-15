@@ -34,6 +34,11 @@ public class Car {
         this.sizeEngine = sizeEngine;
         this.kmOdometer = kmOdometer;
     }
+    public Car(String typeCar, String color, int sizeEngine) {
+        this.typeCar = typeCar;
+        this.color = color;
+        this.sizeEngine = sizeEngine;
+    }
 
     public String getColor() {
         return color;
@@ -68,7 +73,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return  String.format("This %s is %s, has %s cc engine and clocked %s km's.\n",
+        return  String.format("This %s is %s, has %s cc engine and clocked %s km's.",
                 typeCar,
                 color,
                 sizeEngine,

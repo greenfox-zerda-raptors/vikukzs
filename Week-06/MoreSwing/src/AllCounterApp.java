@@ -6,7 +6,7 @@ import java.awt.event.*;
  */
 public class AllCounterApp extends JFrame {
     JLabel clickCounterLabel = new JLabel();
-    JLabel keyCounterLabel = new JLabel();
+    JLabel keyCounterLabel = new JLabel("Keys pressed: ");
     JLabel windowCounterLabel = new JLabel();
     JTextField inputTextField = new JTextField(30);
 
@@ -66,7 +66,10 @@ public class AllCounterApp extends JFrame {
         @Override
         public void keyTyped(KeyEvent e) {
 
-            keyCounterLabel.setText("Keys hit: " + e.getKeyChar());
+            if (!keyCounterLabel.getText().contains("" + e.getKeyChar())) {
+                keyCounterLabel.setText(keyCounterLabel.getText() + e.getKeyChar());
+            }
+
         }
 
         @Override

@@ -11,12 +11,13 @@ public class WrapperApp extends JFrame implements ActionListener {
     JMenu menu = new JMenu("File");
     JMenuItem menuItem = new JMenuItem("Exit");
     Toolkit tk = Toolkit.getDefaultToolkit();
-    ImagePanel image = new ImagePanel();
+    JPanel image = new ImagePanel();
 
     public WrapperApp(){
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(true);
         this.setLocationRelativeTo(null);
+        this.add(image);
         this.setVisible(true);
         this.setSize(500, 500);
         Dimension dim = tk.getScreenSize();
@@ -24,7 +25,7 @@ public class WrapperApp extends JFrame implements ActionListener {
         int yPos = (dim.height / 2) - (this.getHeight() / 2);
         this.setLocation(xPos, yPos);
         setJMenuBar(menubar);
-        this.add(image);
+
 
         menubar.add(menu);
         menu.add(menuItem);

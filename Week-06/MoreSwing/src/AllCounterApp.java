@@ -1,22 +1,20 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 /**
- * Created by Zsuzska on 2016. 11. 23..
+ * Created by Zsuzska on 2016. 11. 24..
  */
 public class AllCounterApp extends JFrame {
-    JLabel mouseCounterLabel = new JLabel();
+    JLabel clickCounterLabel = new JLabel();
     JLabel keyCounterLabel = new JLabel();
     JLabel windowCounterLabel = new JLabel();
-    JTextField inputTextField = new JTextField();
+    JTextField inputTextField = new JTextField(30);
 
-    int mouseCounter = 0;
-    int keyCounter = 0;
+    int clickCounter = 0;
+    String keyCounter = "";
     int windowCounter = 0;
+
     JPanel panel = new JPanel();
-    JButton buttonCount = new JButton("Click me!");
-    JButton buttonReset = new JButton("Reset mouseCounter");
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
@@ -29,50 +27,122 @@ public class AllCounterApp extends JFrame {
 
     public AllCounterApp() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setResizable(false);
+        this.setResizable(true);
         this.setLocationRelativeTo(null);
         this.add(panel);
-        panel.add(buttonCount);
-        panel.add(buttonReset);
-        panel.add(mouseCounterLabel);
+        panel.add(inputTextField);
+        panel.add(clickCounterLabel);
         panel.add(keyCounterLabel);
         panel.add(windowCounterLabel);
 
-        this.setTitle("ClickCounter");
-        updateMouseCounter();
+        this.setTitle("Event Counter");
+
+//        updateClickCounter();
+//        updateKeyCounter();
+//        updateWindowCounter();
         this.setVisible(true);
-        this.setSize(400, 100);
-
-
-        buttonCount.addActionListener(
-                new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        mouseCounter++;
-                        updateMouseCounter();
-                    }
-                }
-        );
-        buttonReset.addActionListener(
-                new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        mouseCounter = 0;
-                        updateMouseCounter();
-                    }
-                }
-        );
+        this.setSize(400, 400);
+        inputTextField.addKeyListener(new ListenForKeys());
+        this.addMouseListener(new ListenForMouse());
+        this.addWindowListener(new ListenForWindow());
     }
 
-    private void updateMouseCounter() {
-        mouseCounterLabel.setText("Clicked " + mouseCounter + " times");
+//    private void updateClickCounter() {
+//        clickCounterLabel.setText("Mouse clicked " + clickCounter + " times");
+//    }
+//
+//    private void updateKeyCounter() {
+//        this.keyCounter += keyCounter;
+//
+//    }
+//
+//    private void updateWindowCounter() {
+//        windowCounterLabel.setText("Window clicked: " + windowCounter);
+//    }
+//
+
+    private class ListenForKeys implements KeyListener {
+
+        @Override
+        public void keyTyped(KeyEvent e) {
+
+            keyCounterLabel.setText("Keys hit: " + e.getKeyChar());
+        }
+
+        @Override
+        public void keyPressed(KeyEvent f) {
+
+        }
+
+        @Override
+        public void keyReleased(KeyEvent g) {
+
+        }
     }
-    private void updateKeyCounter() {
-        keyCounterLabel.setText("Keys hit: " + keyCounter);
-    }
-    private void updateWindowCounter() {
-        windowCounterLabel.setText("Window clicked: " + windowCounter);
-    }
+    private class ListenForMouse implements MouseListener {
+
+        @Override
+        public void mouseClicked(MouseEvent e) {
+            clickCounterLabel.setText("Mouse Clicks: " + e.getClickCount()  + "\n");
+        }
+
+        @Override
+        public void mousePressed(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseReleased(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseEntered(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseExited(MouseEvent e) {
+
+        }
 
 
+    }
+    private class ListenForWindow implements WindowListener {
+
+        @Override
+        public void windowOpened(WindowEvent e) {
+            windowCounterLabel.setText("Window opened");
+        }
+
+        @Override
+        public void windowClosing(WindowEvent e) {
+
+        }
+
+        @Override
+        public void windowClosed(WindowEvent e) {
+
+        }
+
+        @Override
+        public void windowIconified(WindowEvent e) {
+            windowCounterLabel.setText("Window minimized");
+        }
+
+        @Override
+        public void windowDeiconified(WindowEvent e) {
+            windowCounterLabel.setText("Window in normal state");
+        }
+
+        @Override
+        public void windowActivated(WindowEvent e) {
+            windowCounterLabel.setText("Window activated");
+        }
+
+        @Override
+        public void windowDeactivated(WindowEvent e) {
+            windowCounterLabel.setText("Window deactivated");
+        }
+    }
 }

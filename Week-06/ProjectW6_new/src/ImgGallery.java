@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -17,8 +16,8 @@ public class ImgGallery extends JFrame {
     JPanel upperPanel = new JPanel();
     JPanel lowerPanel = new JPanel();
 
-    JButton upLeftButton = new JButton("<");
-    JButton upRightButton = new JButton(">");
+    JButton leftButton = new JButton("<");
+    JButton rightButton = new JButton(">");
     Toolkit tk = Toolkit.getDefaultToolkit();
 
     ImageIcon pic1 = new ImageIcon("image1.jpg");
@@ -49,17 +48,15 @@ public class ImgGallery extends JFrame {
         activeLabel.setPreferredSize(new Dimension(400,400));
         activeLabel.setIcon(pic1);
 
-        upLeftButton.setFont(new Font("Calibri", Font.BOLD, 70));
-        upLeftButton.setBackground(null);
-        upLeftButton.setBorder(null);
+        leftButton.setFont(new Font("Calibri", Font.BOLD, 70));
+        leftButton.setBackground(null);
+        leftButton.setBorder(null);
 
-        upRightButton.setFont(new Font("Calibri", Font.BOLD, 70));
-        upRightButton.setBackground(null);
-        upRightButton.setBorder(null);
+        rightButton.setFont(new Font("Calibri", Font.BOLD, 70));
+        rightButton.setBackground(null);
+        rightButton.setBorder(null);
 
-
-
-        upRightButton.addActionListener(new ActionListener() {
+        rightButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 index++;
@@ -70,7 +67,7 @@ public class ImgGallery extends JFrame {
             }
         });
 
-        upLeftButton.addActionListener(new ActionListener() {
+        leftButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 index--;
@@ -80,13 +77,10 @@ public class ImgGallery extends JFrame {
                 activeLabel.setIcon(iconList.get(index));
             }
         });
-
-
-
         containerPanel.add(upperPanel);
-        upperPanel.add(upLeftButton);
+        upperPanel.add(leftButton);
         upperPanel.add(activeLabel);
-        upperPanel.add(upRightButton);
+        upperPanel.add(rightButton);
 
         containerPanel.add(lowerPanel);
         showImgs();
@@ -95,7 +89,6 @@ public class ImgGallery extends JFrame {
         int xPos = (dim.width / 2) - (this.getWidth() / 2);
         int yPos = (dim.height / 2) - (this.getHeight() / 2);
         this.setLocation(xPos, yPos);
-
     }
 
     public void showImgs() {
@@ -104,9 +97,7 @@ public class ImgGallery extends JFrame {
             iconLabels.setPreferredSize(new Dimension(100,100));
             lowerPanel.add(iconLabels);
         }
-
     }
-
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
@@ -115,6 +106,5 @@ public class ImgGallery extends JFrame {
                 new ImgGallery();
             }
         });
-
     }
 }

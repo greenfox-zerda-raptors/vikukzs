@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -11,6 +12,10 @@ public class Counter extends JFrame {
     JPanel panel = new JPanel();
     JButton buttonCount = new JButton("Click me!");
     JButton buttonReset = new JButton("Reset counter");
+    JMenuBar menubar = new JMenuBar();
+    JMenu menu = new JMenu("File");
+    JMenuItem menuItem = new JMenuItem("Exit");
+    Toolkit tk = Toolkit.getDefaultToolkit();
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
@@ -33,6 +38,15 @@ public class Counter extends JFrame {
         updateCounter();
         this.setVisible(true);
         this.setSize(400, 100);
+        setJMenuBar(menubar);
+        menubar.add(menu);
+        menu.add(menuItem);
+        menuItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
 
 
         buttonCount.addActionListener(

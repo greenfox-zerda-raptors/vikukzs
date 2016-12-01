@@ -42,12 +42,13 @@ public abstract class AbstractAnimal implements Animals {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{" +
-                "moveDistance=" + moveDistance +
-                ", feedCounter=" + feedCounter +
-                ", name='" + name + '\'' +
-                ", childrenNum=" + childrenNum +
-                '}';
+        return name +
+                " moved " + moveDistance +
+                " steps" +
+                ", ate " + feedCounter +
+                " amount of food" +
+                ", and has " + childrenNum +
+                " children\n" ;
     }
 
     protected abstract int defaultFoodAmount();

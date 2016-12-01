@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -7,37 +9,61 @@ import java.util.Arrays;
  * Created by Zsuzsi on 2016. 12. 01..
  */
 public class App extends JFrame {
+    JPanel containerPanel = new JPanel();
     JPanel horseDataPanel = new JPanel();
     JPanel buttonsPanel = new JPanel();
     Toolkit tk = Toolkit.getDefaultToolkit();
     ArrayList<Horse> horses = new ArrayList<>();
-    JButton addHorseButton = new JButton("ADD HORSE");
-    JTextField newHorseName = new JTextField("horse name");
+    JButton newHorseButton = new JButton("ADD HORSE");
+    JTextField newHorseNameTextField = new JTextField(15);
 
     public App() {
 
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.setSize(400, 400);
         this.setResizable(true);
         this.setLocationRelativeTo(null);
-        this.add(horseDataPanel);
+        this.add(containerPanel);
         this.setTitle("Modafakin Horses Bitch");
         this.setVisible(true);
+        containerPanel.add(horseDataPanel);
 
         horses = new ArrayList<>(Arrays.asList(new Horse("Paci"), new Horse("Saci"), new Horse("Lo")));
 
+        buttonsPanel.add(new JLabel("Type new horse name:"));
+        buttonsPanel.add(newHorseNameTextField);
+
         for (int i = 0; i < horses.size(); i++) {
-            JLabel horsesLabel = new JLabel(horses.get(i).getName() + "\n");
+            JLabel horsesLabel = new JLabel(horses.toString());
             horseDataPanel.add(horsesLabel);
         }
 
 
+        newHorseButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Horse newHorse = new Horse(newHorseNameTextField.getText());
+                horses.add(newHorse);
+                JLabel newHorseLabel = new JLabel(newHorse.getName());
+                horseDataPanel.add(newHorseLabel);
+                updateHorseList();
+            }
+        });
 
+        buttonsPanel.add(newHorseButton);
+
+        containerPanel.add(buttonsPanel);
+
+        containerPanel.setLayout(new BoxLayout(containerPanel, BoxLayout.Y_AXIS));
+        this.pack();
         Dimension dim = tk.getScreenSize();
         int xPos = (dim.width / 2) - (this.getWidth() / 2);
         int yPos = (dim.height / 2) - (this.getHeight() / 2);
         this.setLocation(xPos, yPos);
     }
+    public void updateHorseList() {
+
+    }
+
     public static void main(String[] args) {
         new App();
         SwingUtilities.invokeLater(new Runnable() {

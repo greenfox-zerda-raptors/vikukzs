@@ -1,3 +1,0 @@
-.idea/
-Prax_Exam.iml
-out/

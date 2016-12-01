@@ -2,92 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a49e068-ba6a-4d79-9cb5-ac8db29efa89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/AllCounterApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForKeys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForMouse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/AllCounterApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/ImagePanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/WrapperApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/WrapperApp$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/out/production/MoreSwing/WrapperApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/image6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/out/production/ProjectW06/ImageB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/out/production/ProjectW06/ImageC.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/out/production/ProjectW06/ImageGallery$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/out/production/ProjectW06/ImageGallery$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/out/production/ProjectW06/ImageGallery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/Counter$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/Counter$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/Counter$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/Counter$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/Counter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/DrawTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/DrawTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/HelloWorld$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/HelloWorld.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/ImageApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/ImageApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/UIControls$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/UIControls$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/out/production/JFrame/UIControls.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Animals/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/CreditCard/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/GuessCensored/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Instruments/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/ProjectToDo/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/ProjectTodoIO/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Rectangle/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Reservation/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/StudentsMentors/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Workshops/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/JUnitTests/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/MoreSwing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/PrimeFactors/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/ProjectW06.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/src/ImageB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/src/ImageC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW06/src/ImageGallery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/JFrame.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/src/DrawTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/Swing/src/ImageApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-06/TestingCompetition/.gitignore.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/image6.jpg" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/image6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/out/production/ProjectW6_new/ImgGallery$1.class" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/out/production/ProjectW6_new/ImgGallery$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/out/production/ProjectW6_new/ImgGallery.class" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/out/production/ProjectW6_new/ImgGallery.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/AbstractAnimal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Animal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Ant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Horse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Mouse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/test/TestHorse.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Animals/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/CreditCard/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/GuessCensored/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Instruments/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/ProjectToDo/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/ProjectTodoIO/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Rectangle/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Reservation/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/StudentsMentors/.gitignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Workshops/.gitignore.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/PrimeFactors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/PrimeFactors/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/src/ImgGallery.java" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/src/ImgGallery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/Swing/src/Counter.java" afterPath="$PROJECT_DIR$/../../Week-06/Swing/src/Counter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore.txt" afterPath="$PROJECT_DIR$/../../.gitignore.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice3-exam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,11 +42,11 @@
     <favorites_list name="practice3-exam" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Garden.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Garden.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Garden.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="427">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
@@ -129,14 +63,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Flower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="119">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
@@ -149,7 +81,7 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="170">
               <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
@@ -238,20 +170,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="practice3-exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -266,15 +193,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zerda-java-basics-practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -519,6 +443,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -684,6 +609,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -718,42 +649,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480503673031</updated>
-      <workItem from="1480503678017" duration="3198000" />
+      <workItem from="1480503678017" duration="3797000" />
+      <workItem from="1480607783287" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3198000" />
+    <option name="totallyTimeSpent" value="3837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -776,6 +708,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Plant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -786,11 +726,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Flower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="170">
           <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
@@ -801,7 +739,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
           <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
@@ -824,9 +785,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Garden.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="427">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

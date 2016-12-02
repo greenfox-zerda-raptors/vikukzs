@@ -4,6 +4,13 @@
 public abstract class EveryDog extends Dogs {
     private String shitSize;
     private String messMaker;
+    String name;
+    int currentFoodAmount;
+
+    public EveryDog(String name, int currentFoodAmount) {
+        this.name = name;
+        this.currentFoodAmount = currentFoodAmount;
+    }
 
     public EveryDog(String dogType, String bark, String eatAmount, String shitSize, String messMaker) {
         this.dogType = dogType;

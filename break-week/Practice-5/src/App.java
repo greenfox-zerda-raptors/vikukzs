@@ -10,5 +10,18 @@ public class App {
         yorkie.ownADog();
         pit.ownADog();
         newfie.ownADog();
+
+        Dogs dogs = new Dogs();
+        dogs.add(new YorkshireTerrier("Freddy"));
+        dogs.add(new PitBull("Liberty"));
+        dogs.add(new NewFoundland("Bigdog"));
+
+        System.out.println(dogs);
+        System.out.println(dogs.feed(20));
+        System.out.println(dogs);
+        System.out.println(dogs.feed(10));
+        System.out.println(dogs);
+
+
     }
 }

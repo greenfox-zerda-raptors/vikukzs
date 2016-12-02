@@ -14,7 +14,9 @@ public abstract class EveryDog extends Dogs {
 
     public abstract boolean isHungry();
 
-    public abstract void feed(int foodPerDog);
+    public abstract String feed(int foodPerDog);
+
+
 
     public EveryDog(String dogType, String bark, String eatAmount, String shitSize, String messMaker) {
         this.dogType = dogType;

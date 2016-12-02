@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 /**
  * Created by Zsuzsi on 2016. 12. 02..
  */
-public abstract class Dogs {
+public abstract class Dogs extends ArrayList<EveryDog> {
 
     String dogType;
     String bark;

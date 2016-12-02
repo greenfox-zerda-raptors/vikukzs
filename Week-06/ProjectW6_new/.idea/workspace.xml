@@ -2,92 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4470e6aa-ecdc-4d0a-84f4-71549aa51c3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/AllCounterApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForKeys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForMouse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/AllCounterApp$ListenForWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/AllCounterApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/ImagePanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/WrapperApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/WrapperApp$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/out/production/MoreSwing/WrapperApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/image6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/out/production/ProjectW06/ImageB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/out/production/ProjectW06/ImageC.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/out/production/ProjectW06/ImageGallery$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/out/production/ProjectW06/ImageGallery$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/out/production/ProjectW06/ImageGallery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/Counter$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/Counter$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/Counter$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/Counter$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/Counter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/DrawTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/DrawTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/HelloWorld$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/HelloWorld.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/ImageApp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/ImageApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/UIControls$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/UIControls$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/out/production/JFrame/UIControls.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Animals/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/CreditCard/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/GuessCensored/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Instruments/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/ProjectToDo/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/ProjectTodoIO/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Rectangle/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Reservation/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/StudentsMentors/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-05/Workshops/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JUnitTests/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MoreSwing/MoreSwing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PrimeFactors/.gitignore.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/ProjectW06.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/src/ImageB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/src/ImageC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectW06/src/ImageGallery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/JFrame.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/src/DrawTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Swing/src/ImageApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingCompetition/.gitignore.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image6.jpg" afterPath="$PROJECT_DIR$/image6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectW6_new/ImgGallery$1.class" afterPath="$PROJECT_DIR$/out/production/ProjectW6_new/ImgGallery$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectW6_new/ImgGallery.class" afterPath="$PROJECT_DIR$/out/production/ProjectW6_new/ImgGallery.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PrimeFactors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PrimeFactors/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImgGallery.java" afterPath="$PROJECT_DIR$/src/ImgGallery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Swing/src/Counter.java" afterPath="$PROJECT_DIR$/../Swing/src/Counter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Swing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Swing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/thursday/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/thursday/.idea/workspace.xml" />
     </list>
     <ignored path="ProjectW6_new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,8 +32,8 @@
       <file leaf-file-name="ImgGallery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImgGallery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-391">
+              <caret line="43" column="82" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,7 +106,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Swing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunManager" selected="Application.ImgGallery">
@@ -640,6 +560,8 @@
       <updated>1480070305264</updated>
       <workItem from="1480070309199" duration="17774000" />
       <workItem from="1480425209449" duration="89000" />
+      <workItem from="1480619150209" duration="71000" />
+      <workItem from="1480619993330" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="imgGallery">
       <created>1480076628146</created>
@@ -659,11 +581,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17863000" />
+    <option name="totallyTimeSpent" value="18557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -733,6 +655,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImgGallery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImgGallery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="43" column="82" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -29,15 +29,15 @@ public class App extends JFrame {
 
         horses = new ArrayList<>(Arrays.asList(new Horse("Paci"), new Horse("Saci"), new Horse("Lo")));
 
-        buttonsPanel.add(new JLabel("Type new horse name:"));
-        buttonsPanel.add(newHorseNameTextField);
+
 
         for (int i = 0; i < horses.size(); i++) {
             JLabel horsesLabel = new JLabel(horses.toString());
             horseDataPanel.add(horsesLabel);
         }
 
-
+        buttonsPanel.add(new JLabel("Type new horse name:"));
+        buttonsPanel.add(newHorseNameTextField);
         newHorseButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -45,7 +45,7 @@ public class App extends JFrame {
                 horses.add(newHorse);
                 JLabel newHorseLabel = new JLabel(newHorse.getName());
                 horseDataPanel.add(newHorseLabel);
-                updateHorseList();
+
             }
         });
 
@@ -59,9 +59,6 @@ public class App extends JFrame {
         int xPos = (dim.width / 2) - (this.getWidth() / 2);
         int yPos = (dim.height / 2) - (this.getHeight() / 2);
         this.setLocation(xPos, yPos);
-    }
-    public void updateHorseList() {
-
     }
 
     public static void main(String[] args) {

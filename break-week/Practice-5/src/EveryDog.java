@@ -36,6 +36,8 @@ public abstract class EveryDog extends Dogs {
                 shitSize);
     }
 
-
-
+    @Override
+    public String toString() {
+        return name + ", the " + getClass().getSimpleName() + (isHungry() ? " needs to be fed." : " is not hungry.");
+    }
 }

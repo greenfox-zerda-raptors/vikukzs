@@ -40,6 +40,6 @@ public abstract class EveryDog extends Dogs {
 
     @Override
     public String toString() {
-        return name + ", the " + getClass().getSimpleName() + (isHungry() ? " needs to be fed." : " is not hungry.");
+        return name + ", the " + getClass().getSimpleName() + (isHungry() ? " needs to be fed." : " is not hungry.") + "(Food level: " + currentFoodAmount + ")";
     }
 }

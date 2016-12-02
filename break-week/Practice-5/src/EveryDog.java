@@ -12,6 +12,10 @@ public abstract class EveryDog extends Dogs {
         this.currentFoodAmount = currentFoodAmount;
     }
 
+    public abstract boolean isHungry();
+
+    public abstract void feed(int foodPerDog);
+
     public EveryDog(String dogType, String bark, String eatAmount, String shitSize, String messMaker) {
         this.dogType = dogType;
         this.bark = bark;

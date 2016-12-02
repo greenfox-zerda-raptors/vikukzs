@@ -16,4 +16,13 @@ public abstract class Dogs extends ArrayList<EveryDog> {
     }
 
     public abstract void ownADog();
+
+    @Override
+    public String toString() {
+        String result = "";
+        for (EveryDog d : this) {
+            result += d.toString() + "\n";
+        }
+        return result;
+    }
 }

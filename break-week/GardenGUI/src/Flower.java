@@ -8,7 +8,12 @@ public class Flower extends Plant {
 
     @Override
     public boolean isThirsty() {
-        return currentWaterAmount < 5;
+        return currentWaterAmount < 20;
+    }
+
+    @Override
+    public boolean isDead() {
+        return currentWaterAmount > 20*1.5;
     }
 
     @Override

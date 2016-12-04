@@ -12,10 +12,12 @@ public abstract class Plant {
 
     public abstract boolean isThirsty();
 
+    public abstract boolean isDead();
+
     public abstract void water(int waterPerPlant);
 
     @Override
     public String toString() {
-        return "The " + color + " " + getClass().getSimpleName() + (isThirsty() ? " needs water" : " doesn't need water");
+        return "The " + color + " " + getClass().getSimpleName() + (isDead() ? " is dead and" : " is alive and") + (isThirsty() ? " needs water" : " doesn't need water");
     }
 }

@@ -8,7 +8,12 @@ public class Tree extends Plant {
 
     @Override
     public boolean isThirsty() {
-        return currentWaterAmount < 10;
+        return currentWaterAmount < 40;
+    }
+
+    @Override
+    public boolean isDead() {
+        return currentWaterAmount > 40*2;
     }
 
     @Override

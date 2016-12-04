@@ -38,16 +38,27 @@ public class App extends JFrame {
 
         buttonsPanel.add(new JLabel("Type new horse name:"));
         buttonsPanel.add(newHorseNameTextField);
-        newHorseButton.addActionListener(new ActionListener() {
+
+        newHorseNameTextField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Horse newHorse = new Horse(newHorseNameTextField.getText());
                 horses.add(newHorse);
                 JLabel newHorseLabel = new JLabel(newHorse.getName());
                 horseDataPanel.add(newHorseLabel);
-
             }
         });
+
+//        newHorseButton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                Horse newHorse = new Horse(newHorseNameTextField.getText());
+//                horses.add(newHorse);
+//                JLabel newHorseLabel = new JLabel(newHorse.getName());
+//                horseDataPanel.add(newHorseLabel);
+//
+//            }
+//        });
 
         buttonsPanel.add(newHorseButton);
 

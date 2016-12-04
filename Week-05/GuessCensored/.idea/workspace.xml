@@ -2,123 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1f3b32-6b78-4d96-afc8-bcfa125656a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/ProjectsW04.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop03B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop04.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop05.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop06.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop07.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop08.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop09.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop12.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop13.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop17.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/Animals.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CreditCard/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuessCensored.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Guess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/ElectricBassGuitar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/ElectricGuitar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/Instrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/StringedInstrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Instruments/src/main/java/music/Violin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectToDo/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectToDo/src/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectToDo/src/Inputs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectToDo/src/Items.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectToDo/src/OneItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectTodoIO/ProjectTodoIO.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectTodoIO/src/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectTodoIO/src/Inputs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectTodoIO/src/Items.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProjectTodoIO/src/OneItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/StudentsMentors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Workshops/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/Workshop3_ArrayLists.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop02.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop04.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop05.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop06.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop07.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop08.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop09.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop03.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop04.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop05.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop06.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop07.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop08.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop09.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop10.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop11.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop12.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop13.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop14.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop15.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop16.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop18.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop19.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop20.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop21.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop22.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop23.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Bird.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Workshop01.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/Workshop1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week-03/Workshop1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/Workshop2_arrays/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week-03/Workshop2_arrays/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Instruments/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workshops/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Workshops/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Flower.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Flower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Plant.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Plant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Tree.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Tree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" />
     </list>
     <ignored path="GuessCensored.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,7 +38,7 @@
     <favorites_list name="GuessCensored" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Guess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Guess.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -679,11 +578,12 @@
       <workItem from="1479471410602" duration="1549000" />
       <workItem from="1479474763850" duration="2462000" />
       <workItem from="1479482591280" duration="1204000" />
+      <workItem from="1480873857400" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5215000" />
+    <option name="totallyTimeSpent" value="5983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -691,7 +591,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -711,8 +610,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -762,6 +662,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Guess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Guess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">

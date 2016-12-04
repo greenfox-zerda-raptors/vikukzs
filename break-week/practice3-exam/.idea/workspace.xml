@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a49e068-ba6a-4d79-9cb5-ac8db29efa89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/AbstractAnimal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Ant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Horse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/src/Mouse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thursday/test/TestHorse.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Animals/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/CreditCard/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/GuessCensored/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Instruments/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/ProjectToDo/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/ProjectTodoIO/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Rectangle/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Reservation/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/StudentsMentors/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-05/Workshops/.gitignore.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GardenGUI/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App$1.class" afterPath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App$2.class" afterPath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App.class" afterPath="$PROJECT_DIR$/../AnimalsGUI/out/production/AnimalsGUI/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore.txt" afterPath="$PROJECT_DIR$/../../.gitignore.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/GuessCensored/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/GuessCensored/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/Workshops/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/Workshops/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnimalsGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AnimalsGUI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnimalsGUI/src/App.java" afterPath="$PROJECT_DIR$/../AnimalsGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GardenGUI/src/App.java" afterPath="$PROJECT_DIR$/../GardenGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GardenGUI/src/Flower.java" afterPath="$PROJECT_DIR$/../GardenGUI/src/Flower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GardenGUI/src/Plant.java" afterPath="$PROJECT_DIR$/../GardenGUI/src/Plant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GardenGUI/src/Tree.java" afterPath="$PROJECT_DIR$/../GardenGUI/src/Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice3-exam.iws" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="Garden.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Garden.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,23 +53,25 @@
       <file leaf-file-name="Plant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Plant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Flower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="false" />
+                <element signature="e#147#148#0" expanded="false" />
+                <element signature="e#195#196#0" expanded="false" />
+                <element signature="e#240#241#0" expanded="false" />
+                <element signature="e#298#299#0" expanded="false" />
+                <element signature="e#370#371#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,25 +80,25 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            <state relative-caret-position="68">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="false" />
+                <element signature="e#143#144#0" expanded="false" />
+                <element signature="e#191#192#0" expanded="false" />
+                <element signature="e#237#238#0" expanded="false" />
+                <element signature="e#295#296#0" expanded="false" />
+                <element signature="e#366#367#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -171,8 +170,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +190,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -651,15 +650,21 @@
       <updated>1480503673031</updated>
       <workItem from="1480503678017" duration="3797000" />
       <workItem from="1480607783287" duration="40000" />
+      <workItem from="1480687020968" duration="5232000" />
+      <workItem from="1480696356546" duration="74000" />
+      <workItem from="1480697146564" duration="675000" />
+      <workItem from="1480855649557" duration="44000" />
+      <workItem from="1480855724774" duration="1389000" />
+      <workItem from="1480868940279" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3837000" />
+    <option name="totallyTimeSpent" value="12872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -710,6 +715,330 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Garden.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -729,10 +1058,12 @@
         <state relative-caret-position="170">
           <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -742,35 +1073,12 @@
         <state relative-caret-position="170">
           <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
           <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,30 +1093,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Garden.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Plant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Flower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

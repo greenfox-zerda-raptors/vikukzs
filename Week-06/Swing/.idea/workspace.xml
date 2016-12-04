@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7414d91f-b116-468d-97a3-bfcfd962d517" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/GuessCensored/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/GuessCensored/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/Workshops/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/Workshops/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MoreSwing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectW6_new/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ProjectW6_new/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/thursday/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/thursday/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Flower.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Flower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Plant.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Plant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Tree.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/Tree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" />
     </list>
     <ignored path="JFrame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +42,8 @@
       <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+            <state relative-caret-position="121">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -52,17 +62,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="153">
               <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -139,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -175,13 +186,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MoreSwing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.UIControls">
     <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -709,6 +719,7 @@
       <workItem from="1480617422352" duration="3879000" />
       <workItem from="1480621340236" duration="716000" />
       <workItem from="1480675654699" duration="1461000" />
+      <workItem from="1480867942687" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="swing workshops are ready">
       <created>1479915211400</created>
@@ -721,7 +732,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23323000" />
+    <option name="totallyTimeSpent" value="25813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -780,6 +791,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -1041,8 +1087,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+        <state relative-caret-position="121">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1060,16 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="153">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>

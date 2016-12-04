@@ -2,102 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669c453d-e476-4d4a-b182-9d2b25d41b07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Projects/ProjectsW04.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop03B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop04.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop05.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop06.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop07.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop08.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop09.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop12.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop13.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week-04/Workshops_ExceptionsFiles/src/Workshop17.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/Animals.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/src/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/src/Bird.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/src/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/src/Workshop01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Animals/src/Workshop03.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/StudentsMentors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/src/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StudentsMentors/src/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/Workshop3_ArrayLists.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop02.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop04.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop05.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop06.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop07.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop08.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop09.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/out/production/Workshop3_ArrayLists/Workshop23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop03.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop04.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop05.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop06.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop07.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop08.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop09.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop10.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop11.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop12.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop13.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop14.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop15.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop16.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop18.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop19.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop20.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop21.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop22.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Week-04/src/Workshop23.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Bird.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../OOPS/src/Workshop01.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/Workshop1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week-03/Workshop1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/Workshop2_arrays/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week-03/Workshop2_arrays/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/out/production/AnimalsGUI/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Instruments/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/AnimalsGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" afterPath="$PROJECT_DIR$/../../break-week/GardenGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../break-week/practice3-exam/.idea/workspace.xml" />
     </list>
     <ignored path="Workshops.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,19 +37,29 @@
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="-66">
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
               <folding>
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
                 <element signature="e#1175#1176#0" expanded="true" />
                 <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workshop01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Workshop01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Workshop01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -144,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workshop01Array.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Workshop01Array.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Workshop01Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="323">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -222,17 +147,48 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workshops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudentsMentors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Workshop01Array">
     <configuration default="false" name="Workshop01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -722,6 +678,7 @@
       <workItem from="1479212082276" duration="245000" />
       <workItem from="1479218074963" duration="28000" />
       <workItem from="1479226808585" duration="1256000" />
+      <workItem from="1480856998790" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="Workshop2 done">
       <created>1479128422175</created>
@@ -762,24 +719,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18742000" />
+    <option name="totallyTimeSpent" value="19484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51805335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1727672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -790,7 +748,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -826,13 +783,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Workshop01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Workshop01Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -860,10 +868,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -891,10 +909,20 @@
         <state relative-caret-position="612">
           <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
           <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,10 +950,20 @@
         <state relative-caret-position="612">
           <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
           <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,23 +989,23 @@
     <entry file="file://$PROJECT_DIR$/src/Workshop05.java" />
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="-66">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
           <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Workshop01Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -977,6 +1015,16 @@
         <state relative-caret-position="17">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Workshop01Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

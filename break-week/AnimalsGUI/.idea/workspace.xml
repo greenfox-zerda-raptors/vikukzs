@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f4c0bd-3848-4ad6-a753-c5585b4ee9c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GardenGUI/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../zerda-java-basics-practice" afterPath="$PROJECT_DIR$/../../zerda-java-basics-practice" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-05/Instruments/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/MoreSwing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/ProjectW6_new/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week-06/Swing/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.java" afterPath="$PROJECT_DIR$/src/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thursday/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../thursday/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GardenGUI/src/App.java" afterPath="$PROJECT_DIR$/../GardenGUI/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../practice3-exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../practice3-exam/.idea/workspace.xml" />
     </list>
     <ignored path="AnimalsGUI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,18 +45,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding>
-                <element signature="e#337#338#0" expanded="false" />
-                <element signature="e#364#365#0" expanded="false" />
-                <element signature="e#399#400#0" expanded="false" />
-                <element signature="e#433#434#0" expanded="false" />
-                <element signature="e#691#692#0" expanded="false" />
-                <element signature="e#725#726#0" expanded="false" />
-                <element signature="e#777#778#0" expanded="false" />
-                <element signature="e#822#823#0" expanded="false" />
-                <element signature="e#862#863#0" expanded="false" />
-                <element signature="e#917#918#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,12 +55,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#122#123#0" expanded="false" />
-                <element signature="e#149#150#0" expanded="false" />
-                <element signature="e#204#205#0" expanded="false" />
-                <element signature="e#229#230#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,12 +63,10 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2272#2273#0" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,8 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,6 +632,7 @@
       <workItem from="1480616391430" duration="4836000" />
       <workItem from="1480621383313" duration="891000" />
       <workItem from="1480675744794" duration="1377000" />
+      <workItem from="1480793005568" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="created App.java, frame, arraylist for horses">
       <created>1480618817299</created>
@@ -668,7 +652,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7104000" />
+    <option name="totallyTimeSpent" value="7238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -740,83 +724,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding>
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Horse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#123#0" expanded="false" />
-            <element signature="e#149#150#0" expanded="false" />
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Horse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#123#0" expanded="false" />
-            <element signature="e#149#150#0" expanded="false" />
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,22 +742,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mouse.java" />
-    <entry file="file://$PROJECT_DIR$/src/Horse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#123#0" expanded="false" />
-            <element signature="e#149#150#0" expanded="false" />
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -858,29 +758,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding>
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mouse.java" />
+    <entry file="file://$PROJECT_DIR$/src/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

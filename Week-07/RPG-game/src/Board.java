@@ -43,8 +43,6 @@ public class Board extends JComponent implements KeyListener {
             }
         }
 
-
-
         hero = new Hero();
         skeletonOne = new Skeleton(5,5);
         skeletonTwo = new Skeleton(3, 7);
@@ -55,7 +53,6 @@ public class Board extends JComponent implements KeyListener {
 
         setVisible(true);
     }
-
 
 
     @Override
@@ -83,21 +80,23 @@ public class Board extends JComponent implements KeyListener {
             case KeyEvent.VK_ESCAPE:
                 System.exit(0);
             case KeyEvent.VK_UP:
+                hero.imageChanger("hero-up.png");
                 hero.move(0, -1, map);
                 break;
             case KeyEvent.VK_DOWN:
+                hero.imageChanger("hero-down.png");
                 hero.move(0, 1, map);
                 break;
             case KeyEvent.VK_LEFT:
+                hero.imageChanger("hero-left.png");
                 hero.move(-1, 0, map);
                 break;
             case KeyEvent.VK_RIGHT :
+                hero.imageChanger("hero-right.png");
                 hero.move(1, 0, map);
                 break;
         }
-
         repaint();
-
     }
 
     @Override

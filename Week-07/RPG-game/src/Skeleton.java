@@ -5,8 +5,10 @@ import java.util.Random;
  */
 public class Skeleton extends GameObject {
 
+
     public Skeleton(int posX, int posY) {
 
         super("skeleton.png", posX, posY);
     }
+
 }

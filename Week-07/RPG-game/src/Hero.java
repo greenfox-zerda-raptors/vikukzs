@@ -7,6 +7,7 @@ public class Hero extends GameObject {
         super("hero-down.png", 0, 0);
     }
 
+
     public void move(int moveX, int moveY, int[][] map) {
         int nextX = posX + moveX;
         int nextY = posY + moveY;

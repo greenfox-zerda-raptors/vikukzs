@@ -9,6 +9,8 @@ import java.util.ArrayList;
  */
 public class Board extends JComponent implements KeyListener {
     private Hero hero;
+    private Skeleton skeletonOne;
+    private Skeleton skeletonTwo;
     ArrayList<GameObject> gameObjects;
 
 
@@ -41,7 +43,11 @@ public class Board extends JComponent implements KeyListener {
             }
         }
 
+
+
         hero = new Hero();
+        skeletonOne = new Skeleton(5,5);
+        skeletonTwo = new Skeleton(3, 7);
         this.addKeyListener(this);
 
         // set the size of your draw board
@@ -50,6 +56,8 @@ public class Board extends JComponent implements KeyListener {
         setVisible(true);
     }
 
+
+
     @Override
     public void paint(Graphics graphics) {
         // here you have a 720x720 canvas
@@ -57,6 +65,9 @@ public class Board extends JComponent implements KeyListener {
         for (GameObject gameObject : gameObjects){
             gameObject.draw(graphics);
         }
+
+        skeletonOne.draw(graphics);
+        skeletonTwo.draw(graphics);
 
         hero.draw(graphics);
     }

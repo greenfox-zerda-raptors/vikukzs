@@ -72,16 +72,16 @@ public class Board extends JComponent implements KeyListener {
             case KeyEvent.VK_ESCAPE:
                 System.exit(0);
             case KeyEvent.VK_UP:
-                hero.move(0, -1);
+                hero.move(0, -1, map);
                 break;
             case KeyEvent.VK_DOWN:
-                hero.move(0, 1);
+                hero.move(0, 1, map);
                 break;
             case KeyEvent.VK_LEFT:
-                hero.move(-1, 0);
+                hero.move(-1, 0, map);
                 break;
             case KeyEvent.VK_RIGHT :
-                hero.move(1, 0);
+                hero.move(1, 0, map);
                 break;
         }
 

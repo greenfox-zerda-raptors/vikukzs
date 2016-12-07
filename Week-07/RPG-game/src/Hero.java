@@ -10,9 +10,10 @@ public class Hero extends GameObject {
     public void move(int moveX, int moveY, int[][] map) {
         int nextX = posX + moveX;
         int nextY = posY + moveY;
-        if ()
-        posX += moveX;
-        posY += moveY;
+        if (nextX >= 0 && nextX < map.length && nextY >= 0 && nextY < map.length && map[nextX][nextY] != 1) {
+            posX += moveX;
+            posY += moveY;
+        }
     }
 
 

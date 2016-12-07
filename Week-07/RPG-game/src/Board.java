@@ -1,7 +1,11 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -9,9 +13,15 @@ import java.util.ArrayList;
  */
 public class Board extends JComponent implements KeyListener {
     private Hero hero;
+    private Boss boss;
     private Skeleton skeletonOne;
     private Skeleton skeletonTwo;
     ArrayList<GameObject> gameObjects;
+
+    BufferedImage upImage;
+    BufferedImage downImage;
+    BufferedImage leftImage;
+    BufferedImage rightImage;
 
 
     int[][] map = new int[][]{
@@ -29,6 +39,14 @@ public class Board extends JComponent implements KeyListener {
     };
 
     public Board() {
+        try {
+            upImage = ImageIO.read(new File("hero-up.png"));
+            downImage = ImageIO.read(new File("hero-down.png"));
+            leftImage = ImageIO.read(new File("hero-left.png"));
+            rightImage = ImageIO.read(new File("hero-right.png"));
+        } catch (IOException e){
+            e.printStackTrace();
+        }
 
         gameObjects = new ArrayList<>();
         for (int i = 0; i < map.length; i++) {
@@ -43,13 +61,14 @@ public class Board extends JComponent implements KeyListener {
             }
         }
 
+        boss = new Boss(4, 4);
         hero = new Hero();
         skeletonOne = new Skeleton(5,5);
         skeletonTwo = new Skeleton(3, 7);
         this.addKeyListener(this);
 
         // set the size of your draw board
-        setPreferredSize(new Dimension(720, 720));
+        setPreferredSize(new Dimension(520, 720));
 
         setVisible(true);
     }
@@ -65,7 +84,7 @@ public class Board extends JComponent implements KeyListener {
 
         skeletonOne.draw(graphics);
         skeletonTwo.draw(graphics);
-
+        boss.draw(graphics);
         hero.draw(graphics);
     }
     @Override
@@ -80,19 +99,19 @@ public class Board extends JComponent implements KeyListener {
             case KeyEvent.VK_ESCAPE:
                 System.exit(0);
             case KeyEvent.VK_UP:
-                hero.imageChanger("hero-up.png");
+                hero.imageChanger(upImage);
                 hero.move(0, -1, map);
                 break;
             case KeyEvent.VK_DOWN:
-                hero.imageChanger("hero-down.png");
+                hero.imageChanger(downImage);
                 hero.move(0, 1, map);
                 break;
             case KeyEvent.VK_LEFT:
-                hero.imageChanger("hero-left.png");
+                hero.imageChanger(leftImage);
                 hero.move(-1, 0, map);
                 break;
             case KeyEvent.VK_RIGHT :
-                hero.imageChanger("hero-right.png");
+                hero.imageChanger(rightImage);
                 hero.move(1, 0, map);
                 break;
         }

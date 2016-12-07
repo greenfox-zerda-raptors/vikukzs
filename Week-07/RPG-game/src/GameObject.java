@@ -16,6 +16,7 @@ public class GameObject {
     public GameObject(String filename, int posX, int posY) {
         this.posX = posX;
         this.posY = posY;
+
         try {
             image = ImageIO.read(new File(filename));
         } catch (IOException e) {
@@ -23,18 +24,13 @@ public class GameObject {
         }
     }
 
-    public void imageChanger(String filename) {
-        this.filename = filename;
-        try {
-            image = ImageIO.read(new File(filename));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void imageChanger(BufferedImage filename) {
+        this.image = filename;
     }
 
     public void draw(Graphics graphics) {
         if (image != null) {
-            graphics.drawImage(image, posX * 72, posY * 72, null);
+            graphics.drawImage(image, posX * 52, posY * 52, 52, 52, null);
         }
     }
 }

@@ -1,25 +1,29 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
 /**
  * Created by Zsuzsi on 2016. 12. 05..
  */
-public class Board extends JComponent {
+public class Board extends JComponent implements KeyListener {
+    private Hero hero;
     ArrayList<GameObject> gameObjects;
+
 
     int[][] map = new int[][]{
             {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
             {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
             {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
             {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
-            {1, 1, 1, 1, 0, 1, 1, 1, 1, 0},
+            {1, 1, 1, 1, 0, 1, 1, 0, 1, 0},
             {0, 1, 0, 1, 0, 0, 0, 0, 1, 0},
             {0, 1, 0, 1, 0, 1, 1, 0, 1, 0},
             {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
-            {0, 1, 1, 1, 0, 0, 0, 0, 1, 0},
+            {0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 1, 0, 1, 1, 0, 1, 0},
-            {0, 1, 0, 1, 0, 1, 0, 0, 0, 0}
+
     };
 
     public Board() {
@@ -37,8 +41,12 @@ public class Board extends JComponent {
             }
         }
 
+        hero = new Hero();
+        this.addKeyListener(this);
+
         // set the size of your draw board
         setPreferredSize(new Dimension(720, 720));
+
         setVisible(true);
     }
 
@@ -50,6 +58,41 @@ public class Board extends JComponent {
             gameObject.draw(graphics);
         }
 
+        hero.draw(graphics);
     }
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        int keyCode = e.getKeyCode();
+        switch( keyCode ) {
+            case KeyEvent.VK_ESCAPE:
+                System.exit(0);
+            case KeyEvent.VK_UP:
+                hero.move(0, -1);
+                break;
+            case KeyEvent.VK_DOWN:
+                hero.move(0, 1);
+                break;
+            case KeyEvent.VK_LEFT:
+                hero.move(-1, 0);
+                break;
+            case KeyEvent.VK_RIGHT :
+                hero.move(1, 0);
+                break;
+        }
+
+        repaint();
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+
+    }
+
 
 }

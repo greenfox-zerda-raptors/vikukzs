@@ -78,8 +78,8 @@ public class HeroAndMonsters extends GameObject {
         return isAlive;
     }
 
-    public void setAlive(boolean alive) {
-        isAlive = alive;
+    public void setAlive(boolean isAlive) {
+        this.isAlive = isAlive;
     }
 
     public int getSV() {

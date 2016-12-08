@@ -7,6 +7,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Zsuzsi on 2016. 12. 05..
@@ -17,6 +18,7 @@ public class Board extends JComponent implements KeyListener {
     private Skeleton skeletonOne;
     private Skeleton skeletonTwo;
     ArrayList<GameObject> gameObjects;
+    ArrayList<HeroAndMonsters> monsterses;
 
     BufferedImage upImage;
     BufferedImage downImage;
@@ -39,6 +41,7 @@ public class Board extends JComponent implements KeyListener {
     };
 
     public Board() {
+
         try {
             upImage = ImageIO.read(new File("hero-up.png"));
             downImage = ImageIO.read(new File("hero-down.png"));
@@ -66,6 +69,8 @@ public class Board extends JComponent implements KeyListener {
         skeletonOne = new Skeleton(5,5);
         skeletonTwo = new Skeleton(3, 7);
         this.addKeyListener(this);
+
+        monsterses = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));
 
         // set the size of your draw board
         setPreferredSize(new Dimension(520, 720));
@@ -120,10 +125,18 @@ public class Board extends JComponent implements KeyListener {
                 hero.imageChanger(leftImage);
                 hero.move(-1, 0, map);
                 break;
-            case KeyEvent.VK_RIGHT :
+            case KeyEvent.VK_RIGHT:
                 hero.imageChanger(rightImage);
                 hero.move(1, 0, map);
                 break;
+            case KeyEvent.VK_SPACE:
+                for (HeroAndMonsters monster : monsterses) {
+                    if (hero.posX == monster.posX && hero.posY == monster.posY && monster.isAlive) {
+                        hero.attack(monster);
+                        monster.attack(hero);
+                    }
+                }
+
         }
         repaint();
     }

@@ -1,5 +1,3 @@
-import java.util.Random;
-
 /**
  * Created by Zsuzsi on 2016. 12. 07..
  */

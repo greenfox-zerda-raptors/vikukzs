@@ -11,7 +11,6 @@ public class GameObject {
 
     BufferedImage image;
     int posX, posY;
-    String filename;
 
     public GameObject(String filename, int posX, int posY) {
         this.posX = posX;

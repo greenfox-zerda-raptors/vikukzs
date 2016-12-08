@@ -86,7 +86,15 @@ public class Board extends JComponent implements KeyListener {
         skeletonTwo.draw(graphics);
         boss.draw(graphics);
         hero.draw(graphics);
+
+        graphics.drawString(skeletonOne.toString(), 20, 570);
+        graphics.drawString(skeletonTwo.toString(), 20, 600);
+        graphics.drawString(boss.toString(),20, 630);
+        graphics.drawString(hero.toString(), 20, 540);
+
     }
+
+
     @Override
     public void keyTyped(KeyEvent e) {
 

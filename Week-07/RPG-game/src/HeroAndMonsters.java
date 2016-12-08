@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Random;
 
 /**
@@ -7,14 +8,38 @@ public class HeroAndMonsters extends GameObject {
     Random randHP = new Random();
     Random randDP = new Random();
     Random randSP = new Random();
+    Random randSV = new Random();
 
     protected String name;
     protected int HP;
     protected int DP;
     protected int SP;
+    protected boolean isAlive;
+    protected int SV;
 
     public HeroAndMonsters(String filename, int posX, int posY) {
         super(filename, posX, posY);
+        this.SV = this.SP + (randSV.nextInt(6)+1)*2;
+    }
+
+    public void move(int moveX, int moveY, int[][] map) {
+        int nextX = posX + moveX;
+        int nextY = posY + moveY;
+        if (nextX >= 0 && nextX < map.length && nextY >= 0 && nextY < map.length && map[nextX][nextY] != 1) {
+            posX += moveX;
+            posY += moveY;
+        }
+    }
+
+    public void damage(HeroAndMonsters attacker) {
+        this.HP = HP - attacker.SV;
+        if (this.HP <= 0) {
+            this.setAlive(false);
+        }
+    }
+
+    public void attack(HeroAndMonsters attacked) {
+        attacked.damage(this);
     }
 
     public String getName() {
@@ -47,6 +72,29 @@ public class HeroAndMonsters extends GameObject {
 
     public void setSP(int SP) {
         this.SP = SP;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
+    }
+
+    public int getSV() {
+        return SV;
+    }
+
+    public void setSV(int SV) {
+        this.SV = SV;
+    }
+
+    @Override
+    public void draw(Graphics graphics) {
+        if (isAlive) {
+            super.draw(graphics);
+        }
     }
 
     @Override

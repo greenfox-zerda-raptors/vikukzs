@@ -82,10 +82,12 @@ public class Board extends JComponent implements KeyListener {
             gameObject.draw(graphics);
         }
 
+
         skeletonOne.draw(graphics);
         skeletonTwo.draw(graphics);
         boss.draw(graphics);
         hero.draw(graphics);
+
 
         graphics.drawString(skeletonOne.toString(), 20, 570);
         graphics.drawString(skeletonTwo.toString(), 20, 600);

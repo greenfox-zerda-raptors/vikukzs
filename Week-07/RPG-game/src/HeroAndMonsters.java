@@ -22,10 +22,10 @@ public class HeroAndMonsters extends GameObject {
         this.SV = this.SP + (randSV.nextInt(6)+1)*2;
     }
 
-    public void move(int moveX, int moveY, int[][] map) {
+    public void move(int moveX, int moveY, RandomMaze map) {
         int nextX = posX + moveX;
         int nextY = posY + moveY;
-        if (nextX >= 0 && nextX < map.length && nextY >= 0 && nextY < map.length && map[nextX][nextY] != 1) {
+        if (nextX >= 0 && nextX < map.getWidth() && nextY >= 0 && nextY < map.getHeight() && map.getData()[nextX][nextY] != 0) {
             posX += moveX;
             posY += moveY;
         }

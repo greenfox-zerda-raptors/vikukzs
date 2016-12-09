@@ -17,6 +17,7 @@ public class Board extends JComponent implements KeyListener {
     private Boss boss;
     private Skeleton skeletonOne;
     private Skeleton skeletonTwo;
+    RandomMaze map;
     ArrayList<GameObject> gameObjects;
     ArrayList<HeroAndMonsters> monsterses;
 
@@ -26,19 +27,19 @@ public class Board extends JComponent implements KeyListener {
     BufferedImage rightImage;
 
 
-    int[][] map = new int[][]{
-            {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
-            {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
-            {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
-            {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
-            {1, 1, 1, 1, 0, 1, 1, 0, 1, 0},
-            {0, 1, 0, 1, 0, 0, 0, 0, 1, 0},
-            {0, 1, 0, 1, 0, 1, 1, 0, 1, 0},
-            {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
-            {0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 1, 0, 1, 1, 0, 1, 0},
-
-    };
+//    int[][] map = new int[][]{
+//            {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
+//            {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
+//            {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
+//            {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+//            {1, 1, 1, 1, 0, 1, 1, 0, 1, 0},
+//            {0, 1, 0, 1, 0, 0, 0, 0, 1, 0},
+//            {0, 1, 0, 1, 0, 1, 1, 0, 1, 0},
+//            {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
+//            {0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
+//            {0, 0, 0, 1, 0, 1, 1, 0, 1, 0},
+//
+//    };
 
     public Board() {
 
@@ -51,14 +52,16 @@ public class Board extends JComponent implements KeyListener {
             e.printStackTrace();
         }
 
-        gameObjects = new ArrayList<>();
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map[i].length; j++) {
+        map = new RandomMaze(10, 10);
+        map.generate();
 
-                if (map[i][j] == 1) {
-                    gameObjects.add(new Wall(i, j));
+        gameObjects = new ArrayList<>();
+        for (int y = 0; y < map.getHeight(); y++) {
+            for (int x = 0; x < map.getWidth(); x++) {
+                if (map.getData()[x][y] == map.getWALL()) {
+                    gameObjects.add(new Wall(x, y));
                 } else {
-                    gameObjects.add(new Floor(i, j));
+                    gameObjects.add(new Floor(x, y));
                 }
 
             }

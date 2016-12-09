@@ -26,21 +26,6 @@ public class Board extends JComponent implements KeyListener {
     BufferedImage leftImage;
     BufferedImage rightImage;
 
-
-//    int[][] map = new int[][]{
-//            {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
-//            {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
-//            {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
-//            {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
-//            {1, 1, 1, 1, 0, 1, 1, 0, 1, 0},
-//            {0, 1, 0, 1, 0, 0, 0, 0, 1, 0},
-//            {0, 1, 0, 1, 0, 1, 1, 0, 1, 0},
-//            {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
-//            {0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
-//            {0, 0, 0, 1, 0, 1, 1, 0, 1, 0},
-//
-//    };
-
     public Board() {
 
         try {
@@ -52,7 +37,7 @@ public class Board extends JComponent implements KeyListener {
             e.printStackTrace();
         }
 
-        map = new RandomMaze(10, 10);
+        map = new RandomMaze(20, 10);
         map.generate();
 
         gameObjects = new ArrayList<>();
@@ -76,7 +61,7 @@ public class Board extends JComponent implements KeyListener {
         monsterses = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));
 
         // set the size of your draw board
-        setPreferredSize(new Dimension(520, 720));
+        setPreferredSize(new Dimension(map.getWidth() * 52, 720));
 
         setVisible(true);
     }

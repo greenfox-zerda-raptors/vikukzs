@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * Created by Zsuzsi on 2016. 12. 05..
@@ -20,6 +21,9 @@ public class Board extends JComponent implements KeyListener {
     RandomMaze map;
     ArrayList<GameObject> gameObjects;
     ArrayList<HeroAndMonsters> monsterses;
+    ArrayList<GameObject> floorTiles;
+
+    Random randMonster = new Random();
 
     BufferedImage upImage;
     BufferedImage downImage;
@@ -27,6 +31,7 @@ public class Board extends JComponent implements KeyListener {
     BufferedImage rightImage;
 
     public Board() {
+        floorTiles = new ArrayList<>();
 
         try {
             upImage = ImageIO.read(new File("hero-up.png"));
@@ -47,15 +52,17 @@ public class Board extends JComponent implements KeyListener {
                     gameObjects.add(new Wall(x, y));
                 } else {
                     gameObjects.add(new Floor(x, y));
+                    floorTiles.add(new Floor(x, y));
                 }
-
             }
         }
-
-        boss = new Boss(4, 4);
+        int bossPlace = randMonster.nextInt(floorTiles.size());
+        int skeletonOnePlace = randMonster.nextInt(floorTiles.size());
+        int skeletonTwoPlace = randMonster.nextInt(floorTiles.size());
+        boss = new Boss(floorTiles.get(bossPlace).posX, floorTiles.get(bossPlace).posY);
         hero = new Hero();
-        skeletonOne = new Skeleton(5,5);
-        skeletonTwo = new Skeleton(3, 7);
+        skeletonOne = new Skeleton(floorTiles.get(skeletonOnePlace).posX, floorTiles.get(skeletonOnePlace).posY);
+        skeletonTwo = new Skeleton(floorTiles.get(skeletonTwoPlace).posX, floorTiles.get(skeletonTwoPlace).posY);
         this.addKeyListener(this);
 
         monsterses = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));

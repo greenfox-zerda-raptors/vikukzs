@@ -11,16 +11,23 @@ public class HeroAndMonsters extends GameObject {
     Random randSV = new Random();
 
     protected String name;
-    protected int HP;
-    protected int DP;
+    protected double HP;
+    protected double DP;
     protected int SP;
     protected boolean isAlive;
+    protected boolean hasWon;
     protected int SV;
+    protected int level;
 
     public HeroAndMonsters(String filename, int posX, int posY) {
         super(filename, posX, posY);
         this.SV = this.SP + (randSV.nextInt(6)+1)*2;
     }
+
+    public void levelUp() {
+        level++;
+    }
+
 
     public void move(int moveX, int moveY, RandomMaze map) {
         int nextX = posX + moveX;
@@ -42,52 +49,28 @@ public class HeroAndMonsters extends GameObject {
         attacked.damage(this);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getHP() {
-        return HP;
-    }
-
     public void setHP(int HP) {
         this.HP = HP;
-    }
-
-    public int getDP() {
-        return DP;
     }
 
     public void setDP(int DP) {
         this.DP = DP;
     }
 
-    public int getSP() {
-        return SP;
-    }
-
     public void setSP(int SP) {
         this.SP = SP;
-    }
-
-    public boolean isAlive() {
-        return isAlive;
     }
 
     public void setAlive(boolean isAlive) {
         this.isAlive = isAlive;
     }
 
-    public int getSV() {
-        return SV;
+    public void setHasWon(boolean hasWon) {
+        this.hasWon = hasWon;
     }
 
-    public void setSV(int SV) {
-        this.SV = SV;
+    public void setLevel(int level) {
+        this.level = level;
     }
 
     @Override
@@ -99,10 +82,19 @@ public class HeroAndMonsters extends GameObject {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + ": " +
-                name  +
-                ", HP=" + HP +
-                ", DP=" + DP +
-                ", SP=" + SP;
+        if (isAlive) {
+            return this.getClass().getSimpleName() + ": " +
+                    name +
+                    ", HP=" + HP +
+                    ", DP=" + DP +
+                    ", SP=" + SP;
+        }
+        else {
+            return this.getClass().getSimpleName() + " is DEAD!";
+        }
+    }
+
+    public void win() {
+        this.setHasWon(true);
     }
 }

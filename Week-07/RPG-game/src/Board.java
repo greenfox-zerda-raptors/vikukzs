@@ -67,6 +67,7 @@ public class Board extends JComponent implements KeyListener {
 
         monsterses = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));
 
+
         // set the size of your draw board
         setPreferredSize(new Dimension(map.getWidth() * 52, 720));
 
@@ -76,8 +77,6 @@ public class Board extends JComponent implements KeyListener {
 
     @Override
     public void paint(Graphics graphics) {
-        // here you have a 720x720 canvas
-        // you can create and draw an image using the class below e.g.
         for (GameObject gameObject : gameObjects){
             gameObject.draw(graphics);
         }
@@ -95,7 +94,9 @@ public class Board extends JComponent implements KeyListener {
         graphics.drawString(hero.toString(), 20, 540);
 
     }
+    private void updateGame() {
 
+    }
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -130,6 +131,14 @@ public class Board extends JComponent implements KeyListener {
                         hero.attack(monster);
                         monster.attack(hero);
                     }
+                }
+                if (hero.isAlive && !skeletonOne.isAlive && !skeletonTwo.isAlive && !boss.isAlive) {
+                    hero.win();
+                    hero.levelUp();
+                    skeletonOne.levelUp();
+                    skeletonTwo.levelUp();
+                    boss.levelUp();
+                    updateGame();
                 }
 
         }

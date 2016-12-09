@@ -6,10 +6,13 @@ public class Skeleton extends HeroAndMonsters {
     public Skeleton(int posX, int posY) {
         super("skeleton.png", posX, posY);
         this.name = "Ood";
-        this.setSP((1 * randSP.nextInt(6)) + 1);
-        this.setHP(2 * 1 * randHP.nextInt(6) + 1);
-        this.setDP(1 / 2 * randDP.nextInt(6)+1);
+        this.setLevel(1);
+        this.setSP((level * randSP.nextInt(6)+1) + level);
+        this.setHP(2 * level * randHP.nextInt(6) + 1);
+        this.setDP(level / 2 * randDP.nextInt(6)+1);
         this.setAlive(true);
+        this.setHasWon(false);
+
     }
 
 }

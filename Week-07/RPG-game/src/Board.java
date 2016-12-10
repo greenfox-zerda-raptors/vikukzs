@@ -51,8 +51,9 @@ public class Board extends JComponent implements KeyListener {
                 if (map.getData()[x][y] == map.getWALL()) {
                     gameObjects.add(new Wall(x, y));
                 } else {
-                    gameObjects.add(new Floor(x, y));
-                    floorTiles.add(new Floor(x, y));
+                    Floor padlo = new Floor(x, y);
+                    gameObjects.add(padlo);
+                    floorTiles.add(padlo);
                 }
             }
         }

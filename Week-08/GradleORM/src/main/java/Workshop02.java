@@ -18,11 +18,26 @@ public class Workshop02 {
 
         Dao<Account, String> accountDao = DaoManager.createDao(connectionSource, Account.class);
 
-        Account account = new Account("Captain America", "uejnsd632**234.");
-        createAccountIfNotExists(accountDao, account);
+        Account accountCaptain = new Account("Captain America", "uejnsd632**234.");
+        createAccountIfNotExists(accountDao, accountCaptain);
 
-        account = accountDao.queryForId("Captain America");
-        System.out.println("Account: " + account.toString());
+        accountCaptain = accountDao.queryForId("Captain America");
+        System.out.println("Account: " + accountCaptain.toString());
+
+        Account accountIron = new Account("Iron Man", "dkjfgnke");
+        createAccountIfNotExists(accountDao, accountIron);
+
+        accountIron = accountDao.queryForId("Iron Man");
+        System.out.println("Account: " + accountIron.toString());
+
+        Account accountWolverine = new Account("Wolverine", "dkjfgnke");
+        createAccountIfNotExists(accountDao, accountWolverine);
+
+        accountWolverine = accountDao.queryForId("Wolverine");
+        System.out.println("Account: " + accountWolverine.toString());
+
+
+
     }
 
     private static void createAccountIfNotExists(Dao<Account, String> accountDao, Account acc) throws SQLException {

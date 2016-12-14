@@ -23,10 +23,12 @@ public class Workshop03 {
 
         Dao<Address, String> addressDao = DaoManager.createDao(connectionSource, Address.class);
 
-        Address addressCaptain = new Address("Andrassy", "Budapest", "1061", "Hungary");
+        Address addressCaptain = new Address("1","Andrassy", "Budapest", "1061", "Hungary");
 
         Account account = new Account("Captain America", "uejnsd632**234.", addressCaptain);
         createAccountIfNotExists(accountDao, account);
+
+        createAddressIfNotExists(addressDao, addressCaptain);
 
 
 

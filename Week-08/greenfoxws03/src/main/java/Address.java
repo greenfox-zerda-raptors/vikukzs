@@ -6,7 +6,7 @@ import com.j256.ormlite.table.DatabaseTable;
  */
 @DatabaseTable(tableName = "address")
 public class Address {
-    @DatabaseField(generatedId = true)
+    @DatabaseField (id = true)
     private String  address_id;
     @DatabaseField
     private String street;
@@ -18,11 +18,12 @@ public class Address {
     private String country;
     public Address(){}
 
-    public Address(String street, String city, String postCode, String country){
+    public Address(String address_id, String street, String city, String postCode, String country){
         this.street = street;
         this.city = city;
         this.postCode = postCode;
         this.country = country;
+        this.address_id = address_id;
     }
 
     public String getStreet() {

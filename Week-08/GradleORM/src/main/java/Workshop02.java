@@ -4,9 +4,13 @@
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.dao.DaoManager;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
+import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Workshop02 {
     public static void main(String[] args) throws SQLException {
@@ -18,25 +22,24 @@ public class Workshop02 {
 
         Dao<Account, String> accountDao = DaoManager.createDao(connectionSource, Account.class);
 
-        Account accountCaptain = new Account("Captain America", "uejnsd632**234.");
-        createAccountIfNotExists(accountDao, accountCaptain);
+        ArrayList<String> accountNames = new ArrayList<>(Arrays.asList("Captain America", "Iron Man", "Wolverine", "Hulk", "Loki"));
+        ArrayList<String> accountPaswords = new ArrayList<>(Arrays.asList("uejnsd632**234.", "dfgad", "jhdksfn", "hfdjghjn", "khjd"));
 
-        accountCaptain = accountDao.queryForId("Captain America");
-        System.out.println("Account: " + accountCaptain.toString());
+        for (int i = 0; i < accountNames.size(); i++) {
+            createAccountIfNotExists(accountDao, new Account(accountNames.get(i), accountPaswords.get(i)));
+        }
 
-        Account accountIron = new Account("Iron Man", "dkjfgnke");
-        createAccountIfNotExists(accountDao, accountIron);
+        for (Account accountnames : accountDao) {
+            System.out.println(accountnames.getName());
+        }
 
-        accountIron = accountDao.queryForId("Iron Man");
-        System.out.println("Account: " + accountIron.toString());
+        QueryBuilder<Account, String> accounts = accountDao.queryBuilder();
 
-        Account accountWolverine = new Account("Wolverine", "dkjfgnke");
-        createAccountIfNotExists(accountDao, accountWolverine);
+        List<Account> accountList = accounts.selectColumns("name").orderBy("name", true).query();
 
-        accountWolverine = accountDao.queryForId("Wolverine");
-        System.out.println("Account: " + accountWolverine.toString());
-
-
+        for (Account acc : accountList) {
+            System.out.println(acc.getName());
+        }
 
     }
 

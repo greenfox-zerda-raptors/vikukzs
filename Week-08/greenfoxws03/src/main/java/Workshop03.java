@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 public class Workshop03 {
     public static void main(String[] args) throws SQLException {
-        String databaseUrl = "jdbc:mysql://localhost:3306/workshop02?user=root&password=jelszo&serverTimezone=UTC";
+        String databaseUrl = "jdbc:mysql://localhost:3306/workshop03?user=root&password=jelszo&serverTimezone=UTC";
 
         ConnectionSource connectionSource = new JdbcConnectionSource(databaseUrl);
 
@@ -23,12 +23,12 @@ public class Workshop03 {
 
         Dao<Address, String> addressDao = DaoManager.createDao(connectionSource, Address.class);
 
-        Address addressCaptain = new Address("1","Andrassy", "Budapest", "1061", "Hungary");
+        Address addressCaptain = new Address("Andrassy", "Budapest", "1061", "Hungary");
 
         Account account = new Account("Captain America", "uejnsd632**234.", addressCaptain);
         createAccountIfNotExists(accountDao, account);
 
-        createAddressIfNotExists(addressDao, addressCaptain);
+//        createAddressIfNotExists(addressDao, addressCaptain);
 
 
 
@@ -42,9 +42,9 @@ public class Workshop03 {
         }
     }
 
-    private static void createAddressIfNotExists(Dao<Address, String> addressDao, Address address) throws SQLException {
-        if (addressDao.queryForId(address.getAddress_id()) == null) {
-            addressDao.create(address);
-        }
-    }
+//    private static void createAddressIfNotExists(Dao<Address, String> addressDao, Address address) throws SQLException {
+//        if (addressDao.queryForId() == null) {
+//            addressDao.create(address);
+//        }
+//    }
 }

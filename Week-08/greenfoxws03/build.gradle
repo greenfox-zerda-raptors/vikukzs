@@ -1,0 +1,17 @@
+group 'GreenFox'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'mysql:mysql-connector-java:6.0.5'
+    compile group: 'com.j256.ormlite', name: 'ormlite-core', version: '4.30'
+    compile group: 'com.j256.ormlite', name: 'ormlite-jdbc', version: '4.30'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.189'
+}

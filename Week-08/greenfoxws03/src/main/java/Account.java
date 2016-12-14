@@ -14,7 +14,7 @@ public class Account {
     private String name;
     @DatabaseField
     private String password;
-    @DatabaseField(foreign = true, foreignAutoCreate = true, foreignAutoRefresh = true)
+    @DatabaseField(foreign = true)
     public Address address;
     public Account() {
 // ORMLite needs a no-arg constructor

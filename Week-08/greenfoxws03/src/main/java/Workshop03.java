@@ -28,13 +28,21 @@ public class Workshop03 {
         Account account = new Account("Captain America", "uejnsd632**234.", addressCaptain);
         createAccountIfNotExists(accountDao, account);
 
-        account = accountDao.queryForId("Captain America");
+
+
+//        account = accountDao.queryForId("Captain America");
         System.out.println("Account: " + account.toString());
     }
 
     private static void createAccountIfNotExists(Dao<Account, String> accountDao, Account acc) throws SQLException {
         if(accountDao.queryForId(acc.getName()) == null) {
             accountDao.create(acc);
+        }
+    }
+
+    private static void createAddressIfNotExists(Dao<Address, String> addressDao, Address address) throws SQLException {
+        if (addressDao.queryForId(address.getAddress_id()) == null) {
+            addressDao.create(address);
         }
     }
 }

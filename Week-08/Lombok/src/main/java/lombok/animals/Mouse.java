@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 @EqualsAndHashCode
 @ToString(callSuper = true)
 public class Mouse extends AbstractAnimal {
-//    private static final Logger log = Logger.getLogger(Mouse.class.getName());
 
     public Mouse(String name, long weightInGram, double happiness) {
         super(name, weightInGram, happiness);
@@ -35,32 +34,6 @@ public class Mouse extends AbstractAnimal {
     public static Mouse.MouseBuilder builder() {
         return new Mouse.MouseBuilder();
     }
-
-//    public String toString() {
-//        return "Mouse(super=" + super.toString() + ")";
-//    }
-
-//    public boolean equals(Object o) {
-//        if (o == this) {
-//            return true;
-//        } else if (!(o instanceof Mouse)) {
-//            return false;
-//        } else {
-//            Mouse other = (Mouse) o;
-//            return !other.canEqual(this) ? false : super.equals(o);
-//        }
-//    }
-//
-//    protected boolean canEqual(Object other) {
-//        return other instanceof Mouse;
-//    }
-//
-//    public int hashCode() {
-//        boolean PRIME = true;
-//        byte result = 1;
-//        int result1 = result * 59 + super.hashCode();
-//        return result1;
-//    }
 
     public static class MouseBuilder {
         private String name;
@@ -89,8 +62,5 @@ public class Mouse extends AbstractAnimal {
             return new Mouse(this.name, this.weightInGram, this.happiness);
         }
 
-//        public String toString() {
-//            return "Mouse.MouseBuilder(name=" + this.name + ", weightInGram=" + this.weightInGram + ", happiness=" + this.happiness + ")";
-//        }
     }
 }

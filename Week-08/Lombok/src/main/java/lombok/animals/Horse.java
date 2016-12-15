@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 @ToString(callSuper = true)
 @EqualsAndHashCode
 public class Horse extends AbstractAnimal {
-//    private static final Logger log = Logger.getLogger(Horse.class.getName());
 
     public Horse(String name, long weightInGram, double happiness) {
         super(name, weightInGram, happiness);
@@ -36,31 +35,6 @@ public class Horse extends AbstractAnimal {
         return new Horse.HorseBuilder();
     }
 
-//    public String toString() {
-//        return "Horse(super=" + super.toString() + ")";
-//    }
-
-//    public boolean equals(Object o) {
-//        if (o == this) {
-//            return true;
-//        } else if (!(o instanceof Horse)) {
-//            return false;
-//        } else {
-//            Horse other = (Horse) o;
-//            return !other.canEqual(this) ? false : super.equals(o);
-//        }
-//    }
-//
-//    protected boolean canEqual(Object other) {
-//        return other instanceof Horse;
-//    }
-//
-//    public int hashCode() {
-//        boolean PRIME = true;
-//        byte result = 1;
-//        int result1 = result * 59 + super.hashCode();
-//        return result1;
-//    }
 
     public static class HorseBuilder {
         private String name;
@@ -89,8 +63,5 @@ public class Horse extends AbstractAnimal {
             return new Horse(this.name, this.weightInGram, this.happiness);
         }
 
-//        public String toString() {
-//            return "Horse.HorseBuilder(name=" + this.name + ", weightInGram=" + this.weightInGram + ", happiness=" + this.happiness + ")";
-//        }
     }
 }

@@ -17,32 +17,6 @@ public class Cheese extends AbstractFood {
         return new Cheese.CheeseBuilder();
     }
 
-//    public String toString() {
-//        return "Cheese(super=" + super.toString() + ")";
-//    }
-
-//    public boolean equals(Object o) {
-//        if (o == this) {
-//            return true;
-//        } else if (!(o instanceof Cheese)) {
-//            return false;
-//        } else {
-//            Cheese other = (Cheese) o;
-//            return !other.canEqual(this) ? false : super.equals(o);
-//        }
-//    }
-//
-//    protected boolean canEqual(Object other) {
-//        return other instanceof Cheese;
-//    }
-//
-//    public int hashCode() {
-//        boolean PRIME = true;
-//        byte result = 1;
-//        int result1 = result * 59 + super.hashCode();
-//        return result1;
-//    }
-//
     public static class CheeseBuilder {
         private Long weight;
         private Long calories;
@@ -70,8 +44,5 @@ public class Cheese extends AbstractFood {
             return new Cheese(this.weight, this.calories, this.qualityMultiplier);
         }
 
-//        public String toString() {
-//            return "Cheese.CheeseBuilder(weight=" + this.weight + ", calories=" + this.calories + ", qualityMultiplier=" + this.qualityMultiplier + ")";
-//        }
     }
 }

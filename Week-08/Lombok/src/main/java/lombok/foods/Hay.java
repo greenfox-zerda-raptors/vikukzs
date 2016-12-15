@@ -18,31 +18,6 @@ public class Hay extends AbstractHorseFood {
         return new Hay.HayBuilder();
     }
 
-//    public String toString() {
-//        return "Hay(super=" + super.toString() + ")";
-//    }
-//
-//    public boolean equals(Object o) {
-//        if (o == this) {
-//            return true;
-//        } else if (!(o instanceof Hay)) {
-//            return false;
-//        } else {
-//            Hay other = (Hay) o;
-//            return !other.canEqual(this) ? false : super.equals(o);
-//        }
-//    }
-//
-//    protected boolean canEqual(Object other) {
-//        return other instanceof Hay;
-//    }
-//
-//    public int hashCode() {
-//        boolean PRIME = true;
-//        byte result = 1;
-//        int result1 = result * 59 + super.hashCode();
-//        return result1;
-//    }
 
     public static class HayBuilder {
         private Long weight;

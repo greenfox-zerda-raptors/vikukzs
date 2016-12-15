@@ -18,31 +18,6 @@ public class LumpSugar extends AbstractHorseFood {
         return new LumpSugar.LumpSugarBuilder();
     }
 
-//    public String toString() {
-//        return "LumpSugar(super=" + super.toString() + ")";
-//    }
-
-//    public boolean equals(Object o) {
-//        if (o == this) {
-//            return true;
-//        } else if (!(o instanceof LumpSugar)) {
-//            return false;
-//        } else {
-//            LumpSugar other = (LumpSugar) o;
-//            return !other.canEqual(this) ? false : super.equals(o);
-//        }
-//    }
-//
-//    protected boolean canEqual(Object other) {
-//        return other instanceof LumpSugar;
-//    }
-//
-//    public int hashCode() {
-//        boolean PRIME = true;
-//        byte result = 1;
-//        int result1 = result * 59 + super.hashCode();
-//        return result1;
-//    }
 
     public static class LumpSugarBuilder {
         private Long weight;
@@ -71,9 +46,6 @@ public class LumpSugar extends AbstractHorseFood {
             return new LumpSugar(this.weight, this.qualityMultiplier, this.expirationDate);
         }
 
-//        public String toString() {
-//            return "LumpSugar.LumpSugarBuilder(weight=" + this.weight + ", qualityMultiplier=" + this.qualityMultiplier + ", expirationDate=" + this.expirationDate + ")";
-//        }
     }
 
 }

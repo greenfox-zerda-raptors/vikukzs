@@ -1,0 +1,12 @@
+.gradle/*
+*.iml
+.idea/*
+build/*
+gradle/*
+src/resources/*
+gradlew
+gradlew.bat
+settings.gradle
+out/*
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security

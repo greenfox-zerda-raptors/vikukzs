@@ -1,9 +1,10 @@
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
+import lombok.Getter;
+import lombok.Setter;
 
-/**
- * Created by Zsuzska on 2016. 12. 14..
- */
+@Getter
+@Setter
 @DatabaseTable(tableName = "address")
 public class Address {
     @DatabaseField (generatedId = true)
@@ -17,56 +18,14 @@ public class Address {
     @DatabaseField
     private String country;
     public Address(){}
-
     public Address(String street, String city, String postCode, String country){
         this.street = street;
         this.city = city;
         this.postCode = postCode;
         this.country = country;
     }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getPostCode() {
-        return postCode;
-    }
-
-    public void setPostCode(String postCode) {
-        this.postCode = postCode;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public Integer getAddress_id() {
-        return address_id;
-    }
-
-    public void setAddress_id(Integer address_id) {
-        this.address_id = address_id;
-    }
-
     @Override
     public String toString() {
-        return getPostCode() + getCity() + getCountry() + getStreet();
+        return getPostCode() + " " +  getCity()+ " " + getCountry() + " " + getStreet();
     }
 }

@@ -14,4 +14,5 @@ dependencies {
     compile group: 'com.j256.ormlite', name: 'ormlite-core', version: '4.30'
     compile group: 'com.j256.ormlite', name: 'ormlite-jdbc', version: '4.30'
     compile group: 'com.h2database', name: 'h2', version: '1.4.189'
+    compileOnly "org.projectlombok:lombok:1.16.12"
 }

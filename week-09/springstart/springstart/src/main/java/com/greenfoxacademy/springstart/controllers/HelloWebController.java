@@ -28,6 +28,7 @@ public class HelloWebController {
         model.addAttribute("hellos", hellos);
         model.addAttribute("colors", colors);
         model.addAttribute("random", random);
+//        model.addAttribute("color", "aqua");
         model.addAttribute("counter", "This page was loaded " + atomicLong.getAndIncrement() + " times.");
         return "greeting";
     }

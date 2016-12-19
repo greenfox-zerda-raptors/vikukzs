@@ -42,6 +42,7 @@ public class Board extends JComponent implements KeyListener {
             e.printStackTrace();
         }
 
+
         map = new RandomMaze(20, 10);
         map.generate();
 
@@ -51,25 +52,27 @@ public class Board extends JComponent implements KeyListener {
                 if (map.getData()[x][y] == map.getWALL()) {
                     gameObjects.add(new Wall(x, y));
                 } else {
-                    Floor padlo = new Floor(x, y);
-                    gameObjects.add(padlo);
-                    floorTiles.add(padlo);
+                    Floor floorTile = new Floor(x, y);
+                    gameObjects.add(floorTile);
+                    floorTiles.add(floorTile);
                 }
             }
         }
         int bossPlace = randMonster.nextInt(floorTiles.size());
+
         int skeletonOnePlace = randMonster.nextInt(floorTiles.size());
         int skeletonTwoPlace = randMonster.nextInt(floorTiles.size());
+
         boss = new Boss(floorTiles.get(bossPlace).posX, floorTiles.get(bossPlace).posY);
         hero = new Hero();
+
         skeletonOne = new Skeleton(floorTiles.get(skeletonOnePlace).posX, floorTiles.get(skeletonOnePlace).posY);
         skeletonTwo = new Skeleton(floorTiles.get(skeletonTwoPlace).posX, floorTiles.get(skeletonTwoPlace).posY);
+
         this.addKeyListener(this);
 
         monsterses = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));
 
-
-        // set the size of your draw board
         setPreferredSize(new Dimension(map.getWidth() * 52, 720));
 
         setVisible(true);
@@ -96,6 +99,7 @@ public class Board extends JComponent implements KeyListener {
 
     }
     private void updateGame() {
+
 
     }
 
@@ -132,14 +136,6 @@ public class Board extends JComponent implements KeyListener {
                         hero.attack(monster);
                         monster.attack(hero);
                     }
-                }
-                if (hero.isAlive && !skeletonOne.isAlive && !skeletonTwo.isAlive && !boss.isAlive) {
-                    hero.win();
-                    hero.levelUp();
-                    skeletonOne.levelUp();
-                    skeletonTwo.levelUp();
-                    boss.levelUp();
-                    updateGame();
                 }
 
         }

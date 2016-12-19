@@ -5,6 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
-<p th:text="'Hello, ' + ${name} + '!' + '(it is a webpage)' + ${counter}"/>
+<p th:each="hello : ${hellos}" th:style="${background=colors[random.nextint()]}" th:text="${hello} + ', World!'">
+
+</p>
+<!--<p th:text="${hellos} + ', ' + ${name} + '!' + '(it is a webpage)' + ${counter}"/>-->
 </body>
 </html>

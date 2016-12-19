@@ -6,7 +6,7 @@
 </head>
 <body>
 <ul>
-<li th:each="hello : ${hellos}" th:style="|color:${colors[random.nextInt(51)]};|" th:text="${hello} + ', World!'">
+<li th:each="hello : ${hellos}" th:style="|color:${colors[random.nextInt(50)]}; font-size:${random.nextInt(50)}px|" th:text="${hello} + ', World!'">
 
 </li>
 </ul>

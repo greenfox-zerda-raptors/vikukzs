@@ -7,13 +7,15 @@ import java.util.Date;
  */
 
 public class Message {
-    String name;
-    String message;
+    String username;
+    String body;
     Date time;
 
-    public Message(String name, String message) {
-        this.name = name;
-        this.message = message;
+    public Message(){}
+
+    public Message(String username, String body) {
+        this.username = username;
+        this.body = body;
     }
 
 }

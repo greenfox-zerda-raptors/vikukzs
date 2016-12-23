@@ -16,7 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/editText2" />
+        android:layout_above="@+id/editText2"
+        android:id="@+id/listViewID" />
 
     <EditText
         android:layout_width="wrap_content"

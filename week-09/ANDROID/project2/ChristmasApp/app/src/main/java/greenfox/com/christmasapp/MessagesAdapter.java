@@ -33,7 +33,7 @@ public class MessagesAdapter extends ArrayAdapter<Message> {
         // Populate the data into the template view using the data object
         nameTW.setText(message.username);
         messageTV.setText(message.body);
-        dateTW.setText(message.time.toString());
+//        dateTW.setText(message.time.toString());
 
         // Return the completed view to render on screen
         return convertView;

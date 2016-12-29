@@ -55,4 +55,13 @@ public class PostController {
         return new ModelAndView("redirect:/posts");
     }
 
+    @RequestMapping(value = "/{id}/edit", method = RequestMethod.GET)
+    public String edit(@PathVariable long id,
+                       Model model) {
+        Post post = repository.findOne(id);
+        model.addAttribute("post", post);
+        return "posts/edit";
+    }
+
+
 }

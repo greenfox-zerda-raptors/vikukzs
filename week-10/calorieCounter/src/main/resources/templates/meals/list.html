@@ -1,0 +1,42 @@
+<html layout:decorator="layout">
+<div layout:fragment="content">
+
+    <a class="btn btn-primary" href="/meals/new" xmlns:th="http://www.w3.org/1999/xhtml">Add new meal</a>
+
+    <table class="table table-stripes" id="meals_list">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Calories</th>
+            <th>Edit/Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-th-each="meal : ${meals}">
+            <td class="date" data-th-text="${meal.date}"></td>
+            <td class="type" data-th-text="${meal.type}"></td>
+            <td class="description" data-th-text="${meal.description}"></td>
+            <td class="calories" data-th-text="${meal.calories}"></td>
+
+            <td>
+                <a th:href="@{'/meals/{id}/delete'(id=${meal.id})}" class="delete">
+                <span class="fa-stack">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </span>
+                </a>
+            </td>
+            <td>
+                <a th:href="@{'/meals/{id}/edit'(id=${meal.id})}" class="edit">
+                <span class="fa-stack">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </span>
+                </a>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</html>

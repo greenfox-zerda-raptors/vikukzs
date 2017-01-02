@@ -32,15 +32,16 @@ public class MealController {
         return new ModelAndView("redirect:/meals");
     }
 
-    @RequestMapping(value="/new", method = RequestMethod.GET)
-    public String newProject() {
-        return "meals/new";
+    @GetMapping("/new")
+    public String createNewMeal(Model model) {
+        model.addAttribute("meal", new Meal());
+        return "new";
     }
 
-    @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public ModelAndView create(@ModelAttribute ) {
-        repository.save(new Meal(newMeal));
-        return new ModelAndView("redirect:/meals");
+    @PostMapping("/new")
+    public String addNewMeal(@ModelAttribute Meal meal){
+        repository.save(meal);
+        return "redirect:/meals";
     }
 
 }

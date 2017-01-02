@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html layout:decorator="layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<html layout:decorator="layout" xmlns:th="http://www.thymeleaf.org">
 <div layout:fragment="content">
-    <form th:action="@{/new}" th:object="${meal}" method="post" id="comment_form" action="/meals/create">
-        <div class="form-group">
+    <form action="#" th:action="@{'/new'}" th:object="${meal}" method="post" id="comment_form" >
+        <!--<div class="form-group">-->
             <label for="date">Date</label>
             <input type="text" th:field="*{date}" class="form-control" id="date" name="date">
             <label for="type">Type</label>
@@ -17,8 +17,8 @@
             <input type="text" class="form-control" id="description" name="description" th:field="*{description}">
             <label for="calories">Calories</label>
             <input type="number" class="form-control" id="calories" name="calories" th:field="*{calories}">
-        </div>
-        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        <!--</div>-->
+        <button type="submit" id="submit" th:value="submit">Submit</button>
     </form>
 
 </div>

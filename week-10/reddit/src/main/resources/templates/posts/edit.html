@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html layout:decorator="layout" xmlns:th="http://www.thymeleaf.org">
+<div layout:fragment="content">
+    <form action="#" th:action="@{'edit'}" th:object="${post}" method="post" id="comment_form" >
+
+        <label for="title">Title</label>
+        <input type="text" th:field="*{title}" class="form-control" id="title" name="date" />
+        <label for="content">Content</label>
+        <input type="text" class="form-control" id="content" name="content" th:field="*{content}" />
+        <button type="submit" id="submit" th:value="submit">Submit</button>
+    </form>
+
+</div>
+</html>

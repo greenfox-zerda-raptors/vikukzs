@@ -25,6 +25,14 @@ public class Post {
         this.score = 0;
     }
 
+    public void upvote(){
+        score++;
+    }
+
+    public void downvote(){
+        score--;
+    }
+
     public long getId() {
         return id;
     }

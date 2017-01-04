@@ -11,6 +11,7 @@
             <th>Score</th>
             <th>Post</th>
             <th>Vote</th>
+            <th>Edit/Delete</th>
         </tr>
         </thead>
         <tbody>
@@ -23,34 +24,32 @@
             </td>
 
             <td>
+                <a th:href="@{'/posts/{id}/upvote'(id=${post.id})}" class="upvote" th:attr="name=${post.score}">
+                    <span class="fa-stack">
+                        <i class="glyphicon glyphicon-arrow-up"></i>
+                    </span>
+                </a>
+
+                <a th:href="@{'/posts/{id}/downvote'(id=${post.id})}" class="downvote" th:attr="name=${post.score}">
+                    <span class="fa-stack">
+                        <i class="glyphicon glyphicon-arrow-down"></i>
+                    </span>
+                </a>
+            </td>
+
+            <td>
                 <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete">
                 <span class="fa-stack">
                     <i class="glyphicon glyphicon-trash"></i>
                 </span>
                 </a>
-            </td>
-            <td>
+
                 <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit">
                 <span class="fa-stack">
                     <i class="glyphicon glyphicon-edit"></i>
                 </span>
                 </a>
             </td>
-
-            <!--<td>-->
-                <!--<a th:href="@{'/posts/{id}/upvote'(id=${post.id})}" class="upvote" th:attr="name=${post.score}">-->
-                <!--<span class="fa-stack">-->
-                    <!--<i class="glyphicon glyphicon-arrow-up"></i>-->
-                <!--</span>-->
-                <!--</a>-->
-            <!--</td>-->
-            <!--<td>-->
-                <!--<a th:href="@{'/posts/{id}/downvote'(id=${post.id})}" class="downvote" th:attr="name=${post.downvote}">-->
-                <!--<span class="fa-stack">-->
-                    <!--<i class="glyphicon glyphicon-arrow-down"></i>-->
-                <!--</span>-->
-                <!--</a>-->
-            <!--</td>-->
 
         </tr>
         </tbody>

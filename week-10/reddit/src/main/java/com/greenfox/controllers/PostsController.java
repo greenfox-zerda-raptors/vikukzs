@@ -42,13 +42,16 @@ public class PostsController {
         return "redirect:/posts";
     }
 
-//    @GetMapping("/edit")
-//    public String editPost(Model model) {
-//        model.addAttribute("post", new Post());
-//        return "posts/edit";
-//    }
-//
-//    @PostMapping("/edit")
-//    public String addEditedPost(@ModelAttribute )
+    @GetMapping("{id}/edit")
+    public String editPost(Model model) {
+        model.addAttribute("edit", new Post());
+        return "posts/edit";
+    }
+
+    @PostMapping("/edit")
+    public String addEditedPost(@ModelAttribute Post post) {
+        repository.save(post);
+        return "redirect:/posts";
+    }
 
 }

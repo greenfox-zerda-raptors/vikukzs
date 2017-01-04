@@ -15,15 +15,14 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by Zsuzska on 2016. 12. 29..
  */
 @Controller
-@RequestMapping(value = "/posts")
+@RequestMapping("/posts")
 public class PostController {
 
     @Autowired
     private PostRepository repository;
 
-
-    @RequestMapping(value = "", method = RequestMethod.GET)
-    public String listPosts(Model model){
+    @RequestMapping(value="", method=RequestMethod.GET)
+    public String listPosts(Model model) {
         model.addAttribute("posts", repository.findAll());
         return "posts/list";
     }
@@ -32,10 +31,9 @@ public class PostController {
     public ModelAndView delete(@PathVariable long id) {
         repository.delete(id);
         return new ModelAndView("redirect:/posts");
-
     }
 
-    @RequestMapping(value = "/new", method = RequestMethod.GET)
+    @RequestMapping(value="/new", method = RequestMethod.GET)
     public String newProject() {
         return "posts/new";
     }

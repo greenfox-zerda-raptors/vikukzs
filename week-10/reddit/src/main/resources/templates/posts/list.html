@@ -1,0 +1,59 @@
+<html layout:decorator="layout">
+
+<div layout:fragment="content">
+
+    <a class="btn btn-primary" href="/posts/new" xmlns:th="http://www.w3.org/1999/xhtml">Add new post</a>
+
+    <table class="table table-stripes" id="posts_list">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Score</th>
+            <th>Post</th>
+            <th>Vote</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-th-each="post : ${posts}">
+            <td class="id" data-th-text="${post.id}"></td>
+            <td class="score" data-th-text="${post.score}"></td>
+            <td>
+                <p data-th-text="${post.title}"></p>
+                <p data-th-text="${post.content}"></p>
+            </td>
+
+            <td>
+                <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete">
+                <span class="fa-stack">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </span>
+                </a>
+            </td>
+            <td>
+                <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit">
+                <span class="fa-stack">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </span>
+                </a>
+            </td>
+
+            <!--<td>-->
+                <!--<a th:href="@{'/posts/{id}/upvote'(id=${post.id})}" class="upvote" th:attr="name=${post.score}">-->
+                <!--<span class="fa-stack">-->
+                    <!--<i class="glyphicon glyphicon-arrow-up"></i>-->
+                <!--</span>-->
+                <!--</a>-->
+            <!--</td>-->
+            <!--<td>-->
+                <!--<a th:href="@{'/posts/{id}/downvote'(id=${post.id})}" class="downvote" th:attr="name=${post.downvote}">-->
+                <!--<span class="fa-stack">-->
+                    <!--<i class="glyphicon glyphicon-arrow-down"></i>-->
+                <!--</span>-->
+                <!--</a>-->
+            <!--</td>-->
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</html>

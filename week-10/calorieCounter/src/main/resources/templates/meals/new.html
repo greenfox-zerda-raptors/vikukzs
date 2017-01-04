@@ -4,7 +4,7 @@
     <form action="#" th:action="@{'new'}" th:object="${meal}" method="post" id="comment_form" >
         <!--<div class="form-group">-->
             <label for="date">Date</label>
-            <input type="text" th:field="*{date}" class="form-control" id="date" name="date"/>
+            <input type="datetime-local" th:field="*{date}" class="form-control" id="date" name="date"/>
             <label for="type">Type</label>
             <select id="type" name="type" th:field="*{type}">
                 <option value="breakfast">Breakfast</option>

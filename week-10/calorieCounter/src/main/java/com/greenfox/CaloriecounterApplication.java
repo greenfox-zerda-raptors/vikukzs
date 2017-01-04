@@ -19,8 +19,5 @@ public class CaloriecounterApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		for (int i = 0; i < 5; i++) {
-			repository.save(new Meal("2017.01.02", "breakfast", "scrambled eggs with bacon", 1200));
-		}
 	}
 }

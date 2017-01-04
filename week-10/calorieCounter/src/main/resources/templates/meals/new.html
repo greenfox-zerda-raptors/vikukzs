@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html layout:decorator="layout" xmlns:th="http://www.thymeleaf.org">
 <div layout:fragment="content">
-    <form action="#" th:action="@{'/new'}" th:object="${meal}" method="post" id="comment_form" >
+    <form action="#" th:action="@{'new'}" th:object="${meal}" method="post" id="comment_form" >
         <!--<div class="form-group">-->
             <label for="date">Date</label>
-            <input type="text" th:field="*{date}" class="form-control" id="date" name="date">
+            <input type="text" th:field="*{date}" class="form-control" id="date" name="date"/>
             <label for="type">Type</label>
             <select id="type" name="type" th:field="*{type}">
                 <option value="breakfast">Breakfast</option>
@@ -14,9 +14,9 @@
                 <option value="dinner">Dinner</option>
             </select>
             <label for="description">Description</label>
-            <input type="text" class="form-control" id="description" name="description" th:field="*{description}">
+            <input type="text" class="form-control" id="description" name="description" th:field="*{description}"/>
             <label for="calories">Calories</label>
-            <input type="number" class="form-control" id="calories" name="calories" th:field="*{calories}">
+            <input type="number" class="form-control" id="calories" name="calories" th:field="*{calories}"/>
         <!--</div>-->
         <button type="submit" id="submit" th:value="submit">Submit</button>
     </form>

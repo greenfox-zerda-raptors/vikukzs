@@ -35,7 +35,7 @@ public class MealController {
     @GetMapping("/new")
     public String createNewMeal(Model model) {
         model.addAttribute("meal", new Meal());
-        return "new";
+        return "meals/new";
     }
 
     @PostMapping("/new")

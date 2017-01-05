@@ -14,12 +14,14 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+    private String username;
     private String title;
     private String content;
     private int score;
 
     public Post(){}
-    public Post(String title, String content){
+    public Post(String username, String title, String content){
+        this.username = username;
         this.title = title;
         this.content = content;
         this.score = 0;
@@ -39,6 +41,14 @@ public class Post {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getTitle() {

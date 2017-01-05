@@ -1,4 +1,4 @@
-<html layout:decorator="layout">
+<html layout:decorator="layout" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <div layout:fragment="content">
 
@@ -19,9 +19,11 @@
         <tr data-th-each="post : ${posts}">
             <td class="id" data-th-text="${post.id}"></td>
             <td class="score" data-th-text="${post.score}"></td>
-            <td class="username" data-th-text="${post.username}"></td>
             <td>
-                <p data-th-text="${post.title}"></p>
+                <strong><p class="username" data-th-text="${post.username}"></p></strong>
+            </td>
+            <td>
+                <strong><p data-th-text="${post.title}"></p></strong>
                 <p data-th-text="${post.content}"></p>
             </td>
 

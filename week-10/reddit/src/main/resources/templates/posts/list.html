@@ -9,6 +9,7 @@
         <tr>
             <th>#</th>
             <th>Score</th>
+            <th>Username</th>
             <th>Post</th>
             <th>Vote</th>
             <th>Edit/Delete</th>
@@ -18,6 +19,7 @@
         <tr data-th-each="post : ${posts}">
             <td class="id" data-th-text="${post.id}"></td>
             <td class="score" data-th-text="${post.score}"></td>
+            <td class="username" data-th-text="${post.username}"></td>
             <td>
                 <p data-th-text="${post.title}"></p>
                 <p data-th-text="${post.content}"></p>

@@ -3,8 +3,10 @@
 <div layout:fragment="content">
     <form action="#" th:action="@{'new'}" th:object="${post}" method="post" id="comment_form" >
 
+        <label for="username">Username</label>
+        <input type="text" th:field="*{username}" class="form-control" id="username" name="username"/>
         <label for="title">Title</label>
-        <input type="text" th:field="*{title}" class="form-control" id="title" name="date"/>
+        <input type="text" th:field="*{title}" class="form-control" id="title" name="title"/>
         <label for="content">Content</label>
         <input type="text" class="form-control" id="content" name="content" th:field="*{content}"/>
         <button type="submit" id="submit" th:value="submit">Submit</button>

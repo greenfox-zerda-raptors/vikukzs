@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html layout:decorator="layout" xmlns:th="http://www.thymeleaf.org">
 <div layout:fragment="content">
-    <form action="#" th:action="@{'edit'}" th:object="${post}" method="post" id="comment_form" >
+    <form action="#" th:action="@{'/posts/edit'}" th:object="${post}" method="post" id="comment_form" >
+
+        <input type="hidden" th:field="*{id}"/>
 
         <label for="title">Title</label>
         <input type="text" th:field="*{title}" class="form-control" id="title" name="date" />

@@ -43,15 +43,33 @@ public class PostsController {
     }
 
     @GetMapping("{id}/edit")
-    public String editPost(Model model) {
-        model.addAttribute("edit", new Post());
+    public String editPost(@PathVariable long id, Model model) {
+        model.addAttribute("post", repository.findOne(id));
         return "posts/edit";
     }
 
     @PostMapping("/edit")
     public String addEditedPost(@ModelAttribute Post post) {
+        System.out.println(post.getId());
         repository.save(post);
         return "redirect:/posts";
     }
+
+    @RequestMapping("{id}/upvote")
+    public String upvote(@PathVariable long id) {
+        Post post = repository.findOne(id);
+        post.upvote();
+        repository.save(post);
+        return "redirect:/posts";
+    }
+
+    @RequestMapping("{id}/downvote")
+    public String downvote(@PathVariable long id) {
+        Post post = repository.findOne(id);
+        post.downvote();
+        repository.save(post);
+        return "redirect:/posts";
+    }
+
 
 }

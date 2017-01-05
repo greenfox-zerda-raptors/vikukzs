@@ -19,6 +19,5 @@ public class RedditApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		repository.save(new Post("This is the title", "This is the content of my very awesome Reddit clone website."));
 	}
 }

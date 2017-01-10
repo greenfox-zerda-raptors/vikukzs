@@ -11,28 +11,28 @@
     <input type="text" th:field="*{name}" id="name"/>
 
     <label for="pg">PG %</label>
-    <input type="number" th:field="*{pg}" id="pg" max="100" min="0"/>
+    <input type="number" th:field="*{pg}" id="pg" max="100" min="0" step="any"/>
 
     <label for="vg">VG %</label>
-    <input type="number" th:field="*{vg}" id="vg" min="0" max="100"/>
+    <input type="number" th:field="*{vg}" id="vg" min="0" max="100" step="any"/>
 
     <label for="aroma1name">Aroma1 Name</label>
     <input type="text" th:field="*{aroma1name}" id="aroma1name"/>
     <label for="aroma1">Aroma1 %</label>
-    <input type="number" th:field="*{aroma1}" id="aroma1" min="0" max="100"/>
+    <input type="number" th:field="*{aroma1}" id="aroma1" min="0" max="100" step="any"/>
 
     <label for="aroma2name">Aroma2 Name</label>
     <input type="text" th:field="*{aroma2name}" id="aroma2name"/>
     <label for="aroma2">Aroma2 %</label>
-    <input type="number" th:field="*{aroma2}" id="aroma2" min="0" max="100"/>
+    <input type="number" th:field="*{aroma2}" id="aroma2" min="0" max="100" step="any"/>
 
     <label for="aroma3name">Aroma3 Name</label>
     <input type="text" th:field="*{aroma3name}" id="aroma3name"/>
     <label for="aroma3">Aroma3 %</label>
-    <input type="number" th:field="*{aroma3}" id="aroma3" min="0" max="100"/>
+    <input type="number" th:field="*{aroma3}" id="aroma3" min="0" max="100" step="any"/>
 
     <label for="nicotine">Nicotine</label>
-    <input type="number" th:field="*{nicotine}" id="nicotine" min="0" max="12"/>
+    <input type="number" th:field="*{nicotine}" id="nicotine" min="0" max="12" step="any"/>
 
     <button type="submit" id="submit" th:value="submit">Submit</button>
 

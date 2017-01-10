@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>E-liquid Recipes</title>
+</head>
+<body>
+<div class="container">
+    <a class="button button-add" href="/recipes/new">New Recipe</a>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>PG%</th>
+            <th>VG%</th>
+            <th>Aroma1</th>
+            <th>Aroma2</th>
+            <th>Aroma3</th>
+            <th>Nicotine</th>
+            <th>Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="recipe : ${recipes}">
+            <td th:text="${recipe.name}"></td>
+            <td th:text="${recipe.pg}"></td>
+            <td th:text="${recipe.vg}"></td>
+            <td>
+                <p th:text="${recipe.aroma1name}"></p>
+                <p th:text="${recipe.aroma1}"></p>
+            </td>
+            <td>
+                <p th:text="${recipe.aroma2name}"></p>
+                <p th:text="${recipe.aroma2}"></p>
+            </td>
+            <td>
+                <p th:text="${recipe.aroma3name}"></p>
+                <p th:text="${recipe.aroma3}"></p>
+            </td>
+            <td th:text="${recipe.nicotine}"></td>
+            <td th:text="${recipe.rating}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

@@ -21,19 +21,25 @@ public class Recipe {
     private double pg;
     private double vg;
     private double aroma1;
+    private String aroma1name;
     private double aroma2;
+    private String aroma2name;
     private double aroma3;
+    private String aroma3name;
     private double nicotine;
     private int rating;
 
     public Recipe(){}
-    public Recipe(String name, double pg, double vg, double aroma1, double aroma2, double aroma3, double nicotine){
+    public Recipe(String name, double pg, double vg, double aroma1, String aroma1name, double aroma2, String aroma2name, double aroma3, String aroma3name, double nicotine){
         this.name = name;
         this.pg = pg;
         this.vg = vg;
         this.aroma1 = aroma1;
+        this.aroma1name = aroma1name;
         this.aroma2 = aroma2;
+        this.aroma2name = aroma2name;
         this.aroma3 = aroma3;
+        this.aroma3name = aroma3name;
         this.nicotine = nicotine;
         this.rating = 0;
     }

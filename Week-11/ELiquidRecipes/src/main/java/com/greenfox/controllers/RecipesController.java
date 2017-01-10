@@ -32,8 +32,8 @@ public class RecipesController {
     }
 
     @PostMapping("/new")
-    public String addNewRecipe(@ModelAttribute Recipe post){
-        service.save(post);
+    public String addNewRecipe(@ModelAttribute Recipe recipe){
+        service.save(recipe);
         return "redirect:/recipes";
     }
 

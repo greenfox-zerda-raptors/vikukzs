@@ -44,11 +44,11 @@
             <td th:text="${recipe.rating}"></td>
             <td>
                 <a th:href="@{'/recipes/{id}/delete'(id=${recipe.id})}" class="delete">
-                    Delete
+                    &#10006;
                 </a>
 
                 <a th:href="@{'/recipes/{id}/edit'(id=${recipe.id})}" class="edit">
-                    Edit
+                    &#9881;
                 </a>
             </td>
         </tr>

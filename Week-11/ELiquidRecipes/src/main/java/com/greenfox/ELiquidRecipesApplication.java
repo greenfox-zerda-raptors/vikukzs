@@ -19,7 +19,6 @@ public class ELiquidRecipesApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		repository.save(new Recipe("Sutis", 30, 70, 2.5, "banana", 2.5, "nut", 0, "", 0.6));
 
 	}
 }

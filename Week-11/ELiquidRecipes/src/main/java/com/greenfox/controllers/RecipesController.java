@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created by Zsuzska on 2017. 01. 10..
@@ -18,12 +19,9 @@ public class RecipesController {
     @Autowired
     RecipeServices service;
 
-    @Autowired
-    RecipeRepository repository;
-
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String listPosts(Model model){
-        model.addAttribute("recipes", repository.findAll());
+    public String listRecipes(Model model){
+        model.addAttribute("recipes", service.sortRecipes());
         return "recipes/list";
     }
 
@@ -38,4 +36,13 @@ public class RecipesController {
         service.save(post);
         return "redirect:/recipes";
     }
+
+    @RequestMapping(value = "/{id}/delete", method = RequestMethod.GET)
+    public ModelAndView delete(@PathVariable long id) {
+        service.delete(id);
+        return new ModelAndView("redirect:/recipes");
+    }
+
+
+
 }

@@ -10,6 +10,7 @@
     <table>
         <thead>
         <tr>
+            <th>id</th>
             <th>Name</th>
             <th>PG%</th>
             <th>VG%</th>
@@ -18,10 +19,12 @@
             <th>Aroma3</th>
             <th>Nicotine</th>
             <th>Rating</th>
+            <th>Actions</th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="recipe : ${recipes}">
+            <td th:text="${recipe.id}"></td>
             <td th:text="${recipe.name}"></td>
             <td th:text="${recipe.pg}"></td>
             <td th:text="${recipe.vg}"></td>
@@ -39,6 +42,15 @@
             </td>
             <td th:text="${recipe.nicotine}"></td>
             <td th:text="${recipe.rating}"></td>
+            <td>
+                <a th:href="@{'/recipes/{id}/delete'(id=${recipe.id})}" class="delete">
+                    Delete
+                </a>
+
+                <a th:href="@{'/recipes/{id}/edit'(id=${recipe.id})}" class="edit">
+                    Edit
+                </a>
+            </td>
         </tr>
         </tbody>
     </table>

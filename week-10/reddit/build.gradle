@@ -36,5 +36,7 @@ dependencies {
 	compileOnly "org.projectlombok:lombok:1.16.12"
 	testCompile("junit:junit")
 	testCompile("org.springframework.security:spring-security-test")
-	compile("org.springframework.boot:spring-boot-starter-security")
+//	compile("org.springframework.boot:spring-boot-starter-security")
+//	compile group: 'io.github.jpenren', name: 'thymeleaf-spring-data-dialect', version: '3.0.1'
+
 }

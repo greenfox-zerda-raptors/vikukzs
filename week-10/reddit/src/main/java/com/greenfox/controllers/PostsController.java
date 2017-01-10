@@ -3,10 +3,13 @@ package com.greenfox.controllers;
 import com.greenfox.models.Post;
 import com.greenfox.services.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.web.SortDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.awt.print.Pageable;
 
 /**
  * Created by Zsuzska on 2017. 01. 04..
@@ -20,7 +23,8 @@ public class PostsController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String listPosts(Model model){
-        model.addAttribute("posts", repository.findAll());
+        model.addAttribute("posts", repository.findAllByOrderByScoreDesc());
+
         return "posts/list";
     }
 

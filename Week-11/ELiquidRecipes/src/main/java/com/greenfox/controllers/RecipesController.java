@@ -43,6 +43,19 @@ public class RecipesController {
         return new ModelAndView("redirect:/recipes");
     }
 
+    @GetMapping("{id}/edit")
+    public String editRecipe(@PathVariable long id, Model model) {
+        model.addAttribute("recipe", service.findARecipe(id));
+        return "recipes/edit";
+    }
+
+    @PostMapping("/edit")
+    public String addEditedRecipe(@ModelAttribute Recipe recipe) {
+        service.save(recipe);
+        return "redirect:/recipes";
+    }
+
+
 
 
 }

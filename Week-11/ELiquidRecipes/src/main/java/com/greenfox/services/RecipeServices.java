@@ -28,4 +28,6 @@ public class RecipeServices {
     }
 
 
+    public Recipe findARecipe(long id) {
+        return repository.findOne(id);    }
 }

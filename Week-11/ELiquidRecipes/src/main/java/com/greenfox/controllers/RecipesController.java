@@ -55,6 +55,18 @@ public class RecipesController {
         return "redirect:/recipes";
     }
 
+    @RequestMapping("{id}/upvote")
+    public String upvote(@PathVariable long id) {
+        service.upvote(id);
+        return "redirect:/recipes";
+    }
+
+    @RequestMapping("{id}/downvote")
+    public String downvote(@PathVariable long id) {
+        service.downvote(id);
+        return "redirect:/recipes";
+    }
+
 
 
 

@@ -41,7 +41,15 @@
                 <p th:text="${recipe.aroma3}"></p>
             </td>
             <td th:text="${recipe.nicotine}"></td>
-            <td th:text="${recipe.rating}"></td>
+            <td>
+                <a th:href="@{'/recipes/{id}/downvote'(id=${recipe.id})}" class="downvote" th:attr="name=${recipe.rating}">
+                    &#11015;
+                </a>
+                <span  th:text="${recipe.rating}"></span>
+                <a th:href="@{'/recipes/{id}/upvote'(id=${recipe.id})}" class="upvote" th:attr="name=${recipe.rating}">
+                    &#11014;
+                </a>
+            </td>
             <td>
                 <a th:href="@{'/recipes/{id}/delete'(id=${recipe.id})}" class="delete">
                     &#10006;

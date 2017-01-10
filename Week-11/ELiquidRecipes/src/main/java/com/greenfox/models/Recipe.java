@@ -27,7 +27,7 @@ public class Recipe {
     private double aroma3;
     private String aroma3name;
     private double nicotine;
-    private int rating;
+    public int rating;
 
     public Recipe(){}
     public Recipe(String name, double pg, double vg, double aroma1, String aroma1name, double aroma2, String aroma2name, double aroma3, String aroma3name, double nicotine){

@@ -14,6 +14,8 @@ public class RecipeServices {
     @Autowired
     RecipeRepository repository;
 
+    Recipe recipe;
+
     public List<Recipe> sortRecipes() {
         return (List<Recipe>) repository.findAllByOrderByName();
     }
@@ -29,5 +31,19 @@ public class RecipeServices {
 
 
     public Recipe findARecipe(long id) {
-        return repository.findOne(id);    }
+        return repository.findOne(id);
+    }
+
+    public void upvote(Long id){
+        recipe = repository.findOne(id);
+        recipe.rating++;
+        save(recipe);
+    }
+
+    public void downvote(Long id){
+        recipe = repository.findOne(id);
+        recipe.rating--;
+        save(recipe);
+    }
+
 }

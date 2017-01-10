@@ -1,0 +1,59 @@
+body {
+    height: 100%;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    background: url("smoke.png") repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+th, td {
+    height: auto;
+    width: auto;
+    padding: 0px 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: RGBA(27, 30, 36, 1.00);
+    color: RGBA(212, 220, 228, 1.00);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom: 4px;
+}
+
+td {
+    font-size: 12px;
+    color: RGBA(102, 107, 132, 1.00);
+    border: 2px solid #9EA7AF;
+    border-left: 0px;
+}
+
+tr :first-child {
+    border-left: 0;
+}
+
+tr :last-child {
+    border-right: 0;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #EBEBEB;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+

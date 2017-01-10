@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/list.css" th:href="@{/css/list.css}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>E-liquid Recipes</title>
 </head>
 <body>
@@ -40,11 +41,11 @@
             </td>
             <td th:text="${recipe.nicotine}"></td>
             <td>
-                <a th:href="@{'/recipes/{id}/downvote'(id=${recipe.id})}" class="downvote" th:attr="name=${recipe.rating}">
+                <a th:href="@{'/recipes/{id}/downvote'(id=${recipe.id})}" class="vote downvote" th:attr="name=${recipe.rating}">
                     &#11015;
                 </a>
                 <span  th:text="${recipe.rating}"></span>
-                <a th:href="@{'/recipes/{id}/upvote'(id=${recipe.id})}" class="upvote" th:attr="name=${recipe.rating}">
+                <a th:href="@{'/recipes/{id}/upvote'(id=${recipe.id})}" class="vote upvote" th:attr="name=${recipe.rating}">
                     &#11014;
                 </a>
             </td>

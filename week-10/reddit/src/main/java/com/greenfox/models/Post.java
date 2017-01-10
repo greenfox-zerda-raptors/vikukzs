@@ -20,7 +20,7 @@ public class Post {
     private String username;
     private String title;
     private String content;
-    private int score;
+    public int score;
 
     public Post(){}
     public Post(String username, String title, String content){
@@ -28,14 +28,6 @@ public class Post {
         this.title = title;
         this.content = content;
         this.score = 0;
-    }
-
-    public void upvote(){
-        score++;
-    }
-
-    public void downvote(){
-        score--;
     }
 
 }

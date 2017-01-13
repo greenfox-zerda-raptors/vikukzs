@@ -20,8 +20,8 @@ public class RecipesController {
     RecipeServices service;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String listRecipes(Model model){
-        model.addAttribute("recipes", service.sortRecipes());
+    public String listRecipes(Model model, @RequestParam(name = "page", defaultValue = "0") String page, @RequestParam(name = "limit", defaultValue = "10") String limit) {
+        model.addAttribute("recipes", service.sortRecipes(Integer.valueOf(page), Integer.valueOf(limit)));
         return "recipes/list";
     }
 

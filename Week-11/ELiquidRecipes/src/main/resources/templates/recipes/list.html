@@ -41,27 +41,49 @@
             </td>
             <td th:text="${recipe.nicotine}"></td>
             <td>
-                <a th:href="@{'/recipes/{id}/downvote'(id=${recipe.id})}" class="vote downvote" th:attr="name=${recipe.rating}">
+                <a th:href="@{'/recipes/{id}/downvote'(id=${recipe.id})}" class="action vote downvote" th:attr="name=${recipe.rating}">
                     &#11015;
                 </a>
                 <span  th:text="${recipe.rating}"></span>
-                <a th:href="@{'/recipes/{id}/upvote'(id=${recipe.id})}" class="vote upvote" th:attr="name=${recipe.rating}">
+                <a th:href="@{'/recipes/{id}/upvote'(id=${recipe.id})}" class="action vote upvote" th:attr="name=${recipe.rating}">
                     &#11014;
                 </a>
             </td>
             <td>
-                <a th:href="@{'/recipes/{id}/delete'(id=${recipe.id})}" class="delete">
+                <a th:href="@{'/recipes/{id}/delete'(id=${recipe.id})}" class="action delete">
                     &#10006;
                 </a>
 
-                <a th:href="@{'/recipes/{id}/edit'(id=${recipe.id})}" class="edit">
+                <a th:href="@{'/recipes/{id}/edit'(id=${recipe.id})}" class="action edit">
                     &#9881;
                 </a>
             </td>
         </tr>
         </tbody>
     </table>
-</div>
+
+    <div class="pagination">
+        <a class="button pag" href="#" th:href="@{'/recipes/?page=0&amp;limit=' + ${recipes.getSize()}}">&lt;&lt;first</a>
+        <!--&lt;!&ndash;add "previous" link if page exists&ndash;&gt;-->
+        <a class="button pag" th:if="${recipes.hasPrevious()}"
+           href="#" th:href="@{'/recipes/?page=' + ${recipes.getNumber()-1} + '&amp;limit=' + ${recipes.getSize()}}"
+           th:rel="${recipes.previousPageable()}">&lt;previous</a>
+        <!--azert kell unless, mert kiakad, ha nincs prev-->
+        <a class="button pag" th:unless="${recipes.previousPageable()}" href="#">&lt;previous</a>
+        <!--add "next" link if page exists-->
+
+        <a class="button pag" href="#" th:href="@{'/recipes/?page=0&amp;limit=2'}">2</a>
+        <a class="button pag" href="#" th:href="@{'/recipes/?page=0&amp;limit=5'}">5</a>
+        <a class="button pag" href="#" th:href="@{'/recipes/?page=0&amp;limit=10'}">10</a>
+
+        <a class="button pag" th:if="${recipes.hasNext()}"
+           href="#" th:href="@{'/recipes/?page=' + ${recipes.getNumber()+1} + '&amp;limit=' + ${recipes.getSize()}}"
+           th:rel="${recipes.nextPageable()}">next&gt;</a>
+        <!--azert kell unless, mert elmegy barmeddig, de ures a lap-->
+        <a class="button pag" th:unless="${recipes.nextPageable()}" href="#">next&gt;</a>
+        <!--add "last" link -->
+        <a class="button pag" href="#" th:href="@{'/recipes/?page=' + ${recipes.getTotalPages()-1} + '&amp;limit=' + ${recipes.getSize()}}">last&gt;&gt;</a>
+    </div></div>
 
 </body>
 </html>

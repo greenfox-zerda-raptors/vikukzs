@@ -2,6 +2,8 @@ package com.greenfox.services;
 
 import com.greenfox.models.Recipe;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,8 +18,8 @@ public class RecipeServices {
 
     Recipe recipe;
 
-    public List<Recipe> sortRecipes() {
-        return (List<Recipe>) repository.findAllByOrderByName();
+    public Page<Recipe> sortRecipes(Integer page, Integer limit) {
+        return repository.findAllByOrderByName(new PageRequest(page, limit));
     }
 
 
